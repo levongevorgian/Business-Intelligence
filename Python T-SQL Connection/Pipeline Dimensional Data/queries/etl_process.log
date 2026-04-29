@@ -1,0 +1,28 @@
+2024-12-14 23:13:44,588 INFO:Connection string built successfully.
+2024-12-14 23:13:44,664 INFO:Database connection established.
+2024-12-14 23:13:44,664 INFO:Populating Staging Tables...
+2024-12-14 23:13:44,841 INFO:Data loaded into staging table 'dbo.Categories_Staging'.
+2024-12-14 23:13:44,914 INFO:Data loaded into staging table 'dbo.Customers_Staging'.
+2024-12-14 23:13:44,943 INFO:Data loaded into staging table 'dbo.Employees_Staging'.
+2024-12-14 23:13:45,242 INFO:Data loaded into staging table 'dbo.Products_Staging'.
+2024-12-14 23:13:45,291 INFO:Data loaded into staging table 'dbo.Shippers_Staging'.
+2024-12-14 23:13:45,356 INFO:Data loaded into staging table 'dbo.Suppliers_Staging'.
+2024-12-14 23:13:45,388 INFO:Staging table data committed.
+2024-12-14 23:13:45,388 INFO:Populating Dim_SOR...
+2024-12-14 23:13:45,404 INFO:Dim_SOR populated for staging table 'Categories_staging'.
+2024-12-14 23:13:45,419 INFO:Dim_SOR populated for staging table 'Customers_staging'.
+2024-12-14 23:13:45,437 INFO:Dim_SOR populated for staging table 'Employees_staging'.
+2024-12-14 23:13:45,447 INFO:Dim_SOR populated for staging table 'Products_staging'.
+2024-12-14 23:13:45,454 INFO:Dim_SOR populated for staging table 'Shippers_staging'.
+2024-12-14 23:13:45,461 INFO:Dim_SOR populated for staging table 'Suppliers_staging'.
+2024-12-14 23:13:45,463 INFO:Dim_SOR data committed.
+2024-12-14 23:13:45,463 INFO:Populating Dimension Tables...
+2024-12-14 23:13:45,518 INFO:DimCustomers populated successfully.
+2024-12-14 23:13:45,583 INFO:DimCategories populated successfully.
+2024-12-14 23:13:45,659 INFO:DimShippers populated successfully.
+2024-12-14 23:13:45,702 INFO:DimSuppliers populated successfully.
+2024-12-14 23:13:45,706 INFO:All dimension tables populated and committed.
+2024-12-14 23:13:45,706 INFO:Populating Fact Tables...
+2024-12-14 23:13:45,711 INFO:All fact tables populated and committed successfully.
+2024-12-14 23:13:45,712 INFO:ETL process completed successfully.
+2024-12-14 23:13:45,712 INFO:Database connection closed.

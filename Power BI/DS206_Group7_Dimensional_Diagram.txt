@@ -1,0 +1,65 @@
+Table DimDistrict {
+  District_SK_PK int [pk, increment] 
+  DistrictID_NK int 
+  District varchar
+  DM varchar
+  DM_Pic_f1 varchar
+  DM_Pic varchar
+  BusinessUnitID int
+  DMImage varchar
+}
+
+Table DimStore {
+  Store_SK_PK int [pk, increment] 
+  LocationID_NK int 
+  City_Name varchar
+  Territory varchar
+  PostalCode varchar
+  OpenDate date
+  SellingAreaSize int
+  DistrictName varchar
+  Name varchar
+  StoreNumberName varchar
+  StoreNumber varchar
+  City varchar
+  Chain varchar
+  DM varchar
+  DM_Pic varchar
+  DistrictID_NK int 
+  Open_Year int
+  Store_Type varchar
+  Open_Month_No int
+  Open_Month varchar
+}
+
+Table DimTime {
+  Time_SK_PK int [pk, increment] 
+  ReportingPeriodID_NK int 
+  Period varchar
+  FiscalYear int
+  FiscalMonth int
+  Month varchar
+}
+
+Table DimItem {
+  Item_SK_PK int [pk, increment] 
+  ItemID_NK int 
+  Segment varchar
+  Category varchar
+  Buyer varchar
+  FamilyName varchar
+}
+
+Table FactSales {
+  Sales_SK_PK int [pk, increment] 
+  Store_SK_FK int [ref: > DimStore.Store_SK_PK] 
+  Item_SK_FK int [ref: > DimItem.Item_SK_PK] 
+  Time_SK_FK int [ref: > DimTime.Time_SK_PK] 
+  District_SK_FK int [ref: > DimDistrict.District_SK_PK] 
+  ScenarioID int
+  Sum_GrossMargin float
+  Sum_Regular_Sale float
+  Sum_Markdown_Sale float
+}
+
+

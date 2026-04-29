@@ -1,0 +1,751 @@
+2024-12-14 15:50:55 - 5f2fe972-0c65-4eac-bf7a-e0c969412a7f - INFO - Initialized DimensionalDataFlow with Execution ID: 5f2fe972-0c65-4eac-bf7a-e0c969412a7f
+2024-12-14 15:50:55 - 5f2fe972-0c65-4eac-bf7a-e0c969412a7f - INFO - Starting Dimensional Data Flow execution.
+2024-12-14 15:50:55 - 5f2fe972-0c65-4eac-bf7a-e0c969412a7f - INFO - Executing Task 1: Create Staging Tables.
+2024-12-14 15:50:55 - 5f2fe972-0c65-4eac-bf7a-e0c969412a7f - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 15:50:55 - 5f2fe972-0c65-4eac-bf7a-e0c969412a7f - INFO - Database connection established for table creation.
+2024-12-14 15:50:55 - 5f2fe972-0c65-4eac-bf7a-e0c969412a7f - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/staging_raw_table_creation.sql
+2024-12-14 15:50:55 - 5f2fe972-0c65-4eac-bf7a-e0c969412a7f - INFO - Table 'staging' created successfully.
+2024-12-14 15:50:55 - 5f2fe972-0c65-4eac-bf7a-e0c969412a7f - INFO - All tables created successfully.
+2024-12-14 15:50:55 - 5f2fe972-0c65-4eac-bf7a-e0c969412a7f - INFO - Database connection closed.
+2024-12-14 15:50:55 - 5f2fe972-0c65-4eac-bf7a-e0c969412a7f - INFO - Executing Task 2: Create Dim Tables, SCDs, and SORs.
+2024-12-14 15:50:55 - 5f2fe972-0c65-4eac-bf7a-e0c969412a7f - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 15:50:55 - 5f2fe972-0c65-4eac-bf7a-e0c969412a7f - INFO - Database connection established for table creation.
+2024-12-14 15:50:55 - 5f2fe972-0c65-4eac-bf7a-e0c969412a7f - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/dimensional_db_table_creation.sql
+2024-12-14 15:50:55 - 5f2fe972-0c65-4eac-bf7a-e0c969412a7f - INFO - Table 'dim, sor, scd' created successfully.
+2024-12-14 15:50:55 - 5f2fe972-0c65-4eac-bf7a-e0c969412a7f - INFO - All dim, scd, sor tables created successfully.
+2024-12-14 15:50:55 - 5f2fe972-0c65-4eac-bf7a-e0c969412a7f - INFO - Database connection closed.
+2024-12-14 15:50:55 - 5f2fe972-0c65-4eac-bf7a-e0c969412a7f - INFO - Dimensional Data Flow executed successfully.
+2024-12-14 15:50:55 - 5f2fe972-0c65-4eac-bf7a-e0c969412a7f - INFO - Dimensional data pipeline executed successfully.
+2024-12-14 19:15:55 - d29b766d-cdd2-449b-97fa-6f6fc086a198 - INFO - Initialized DimensionalDataFlow with Execution ID: d29b766d-cdd2-449b-97fa-6f6fc086a198
+2024-12-14 19:15:55 - d29b766d-cdd2-449b-97fa-6f6fc086a198 - INFO - Starting Dimensional Data Flow execution.
+2024-12-14 19:15:55 - d29b766d-cdd2-449b-97fa-6f6fc086a198 - INFO - Executing Task 1: Create Staging Tables.
+2024-12-14 19:15:56 - d29b766d-cdd2-449b-97fa-6f6fc086a198 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 19:15:56 - d29b766d-cdd2-449b-97fa-6f6fc086a198 - INFO - Database connection established for table creation.
+2024-12-14 19:15:56 - d29b766d-cdd2-449b-97fa-6f6fc086a198 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/staging_raw_table_creation.sql
+2024-12-14 19:15:56 - d29b766d-cdd2-449b-97fa-6f6fc086a198 - INFO - Table 'staging' created successfully.
+2024-12-14 19:15:56 - d29b766d-cdd2-449b-97fa-6f6fc086a198 - INFO - All tables created successfully.
+2024-12-14 19:15:56 - d29b766d-cdd2-449b-97fa-6f6fc086a198 - INFO - Database connection closed.
+2024-12-14 19:15:56 - d29b766d-cdd2-449b-97fa-6f6fc086a198 - INFO - Executing Task 2: Create Dim Tables, SCDs, and SORs.
+2024-12-14 19:15:56 - d29b766d-cdd2-449b-97fa-6f6fc086a198 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 19:15:56 - d29b766d-cdd2-449b-97fa-6f6fc086a198 - INFO - Database connection established for table creation.
+2024-12-14 19:15:56 - d29b766d-cdd2-449b-97fa-6f6fc086a198 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/dimensional_db_table_creation.sql
+2024-12-14 19:15:56 - d29b766d-cdd2-449b-97fa-6f6fc086a198 - INFO - Table 'dim, sor, scd' created successfully.
+2024-12-14 19:15:56 - d29b766d-cdd2-449b-97fa-6f6fc086a198 - INFO - All dim, scd, sor tables created successfully.
+2024-12-14 19:15:56 - d29b766d-cdd2-449b-97fa-6f6fc086a198 - INFO - Database connection closed.
+2024-12-14 19:15:56 - d29b766d-cdd2-449b-97fa-6f6fc086a198 - INFO - Dimensional Data Flow executed successfully.
+2024-12-14 19:15:56 - d29b766d-cdd2-449b-97fa-6f6fc086a198 - INFO - Dimensional data pipeline executed successfully.
+2024-12-14 19:17:18 - 9ccc75ae-6a06-4776-b719-77bf0dc87f89 - INFO - Initialized DimensionalDataFlow with Execution ID: 9ccc75ae-6a06-4776-b719-77bf0dc87f89
+2024-12-14 19:17:18 - 9ccc75ae-6a06-4776-b719-77bf0dc87f89 - INFO - Starting Dimensional Data Flow execution.
+2024-12-14 19:17:18 - 9ccc75ae-6a06-4776-b719-77bf0dc87f89 - INFO - Executing Task 1: Create Staging Tables.
+2024-12-14 19:17:18 - 9ccc75ae-6a06-4776-b719-77bf0dc87f89 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 19:17:18 - 9ccc75ae-6a06-4776-b719-77bf0dc87f89 - INFO - Database connection established for table creation.
+2024-12-14 19:17:18 - 9ccc75ae-6a06-4776-b719-77bf0dc87f89 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/staging_raw_table_creation.sql
+2024-12-14 19:17:18 - 9ccc75ae-6a06-4776-b719-77bf0dc87f89 - INFO - Table 'staging' created successfully.
+2024-12-14 19:17:18 - 9ccc75ae-6a06-4776-b719-77bf0dc87f89 - INFO - All tables created successfully.
+2024-12-14 19:17:18 - 9ccc75ae-6a06-4776-b719-77bf0dc87f89 - INFO - Database connection closed.
+2024-12-14 19:17:18 - 9ccc75ae-6a06-4776-b719-77bf0dc87f89 - INFO - Executing Task 2: Create Dim Tables and SORs.
+2024-12-14 19:17:18 - 9ccc75ae-6a06-4776-b719-77bf0dc87f89 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 19:17:18 - 9ccc75ae-6a06-4776-b719-77bf0dc87f89 - INFO - Database connection established for table creation.
+2024-12-14 19:17:18 - 9ccc75ae-6a06-4776-b719-77bf0dc87f89 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/dimensional_db_table_creation.sql
+2024-12-14 19:17:18 - 9ccc75ae-6a06-4776-b719-77bf0dc87f89 - INFO - Table 'dim, sor' created successfully.
+2024-12-14 19:17:18 - 9ccc75ae-6a06-4776-b719-77bf0dc87f89 - INFO - All dim, sor tables created successfully.
+2024-12-14 19:17:18 - 9ccc75ae-6a06-4776-b719-77bf0dc87f89 - INFO - Database connection closed.
+2024-12-14 19:17:18 - 9ccc75ae-6a06-4776-b719-77bf0dc87f89 - INFO - Dimensional Data Flow executed successfully.
+2024-12-14 19:17:18 - 9ccc75ae-6a06-4776-b719-77bf0dc87f89 - INFO - Dimensional data pipeline executed successfully.
+2024-12-14 19:17:19 - b1e23da4-896f-48c0-b1f2-be02609d1631 - INFO - Initialized DimensionalDataFlow with Execution ID: b1e23da4-896f-48c0-b1f2-be02609d1631
+2024-12-14 19:17:19 - b1e23da4-896f-48c0-b1f2-be02609d1631 - INFO - Starting Dimensional Data Flow execution.
+2024-12-14 19:17:19 - b1e23da4-896f-48c0-b1f2-be02609d1631 - INFO - Executing Task 1: Create Staging Tables.
+2024-12-14 19:17:19 - b1e23da4-896f-48c0-b1f2-be02609d1631 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 19:17:19 - b1e23da4-896f-48c0-b1f2-be02609d1631 - INFO - Database connection established for table creation.
+2024-12-14 19:17:19 - b1e23da4-896f-48c0-b1f2-be02609d1631 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/staging_raw_table_creation.sql
+2024-12-14 19:17:19 - b1e23da4-896f-48c0-b1f2-be02609d1631 - INFO - Table 'staging' created successfully.
+2024-12-14 19:17:19 - b1e23da4-896f-48c0-b1f2-be02609d1631 - INFO - All tables created successfully.
+2024-12-14 19:17:19 - b1e23da4-896f-48c0-b1f2-be02609d1631 - INFO - Database connection closed.
+2024-12-14 19:17:19 - b1e23da4-896f-48c0-b1f2-be02609d1631 - INFO - Executing Task 2: Create Dim Tables and SORs.
+2024-12-14 19:17:19 - b1e23da4-896f-48c0-b1f2-be02609d1631 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 19:17:19 - b1e23da4-896f-48c0-b1f2-be02609d1631 - INFO - Database connection established for table creation.
+2024-12-14 19:17:19 - b1e23da4-896f-48c0-b1f2-be02609d1631 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/dimensional_db_table_creation.sql
+2024-12-14 19:17:19 - b1e23da4-896f-48c0-b1f2-be02609d1631 - INFO - Table 'dim, sor' created successfully.
+2024-12-14 19:17:19 - b1e23da4-896f-48c0-b1f2-be02609d1631 - INFO - All dim, sor tables created successfully.
+2024-12-14 19:17:19 - b1e23da4-896f-48c0-b1f2-be02609d1631 - INFO - Database connection closed.
+2024-12-14 19:17:19 - b1e23da4-896f-48c0-b1f2-be02609d1631 - INFO - Dimensional Data Flow executed successfully.
+2024-12-14 19:17:19 - b1e23da4-896f-48c0-b1f2-be02609d1631 - INFO - Dimensional data pipeline executed successfully.
+2024-12-14 19:18:52 - fe38ac1e-0abe-4bea-9f26-70fc9615983a - INFO - Initialized DimensionalDataFlow with Execution ID: fe38ac1e-0abe-4bea-9f26-70fc9615983a
+2024-12-14 19:18:52 - fe38ac1e-0abe-4bea-9f26-70fc9615983a - INFO - Starting Dimensional Data Flow execution.
+2024-12-14 19:18:52 - fe38ac1e-0abe-4bea-9f26-70fc9615983a - INFO - Executing Task 1: Create Staging Tables.
+2024-12-14 19:18:52 - fe38ac1e-0abe-4bea-9f26-70fc9615983a - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 19:18:52 - fe38ac1e-0abe-4bea-9f26-70fc9615983a - INFO - Database connection established for table creation.
+2024-12-14 19:18:52 - fe38ac1e-0abe-4bea-9f26-70fc9615983a - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/staging_raw_table_creation.sql
+2024-12-14 19:18:52 - fe38ac1e-0abe-4bea-9f26-70fc9615983a - INFO - Table 'staging' created successfully.
+2024-12-14 19:18:52 - fe38ac1e-0abe-4bea-9f26-70fc9615983a - INFO - All tables created successfully.
+2024-12-14 19:18:52 - fe38ac1e-0abe-4bea-9f26-70fc9615983a - INFO - Database connection closed.
+2024-12-14 19:18:52 - fe38ac1e-0abe-4bea-9f26-70fc9615983a - INFO - Executing Task 2: Create Dim Tables and SORs.
+2024-12-14 19:18:52 - fe38ac1e-0abe-4bea-9f26-70fc9615983a - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 19:18:52 - fe38ac1e-0abe-4bea-9f26-70fc9615983a - INFO - Database connection established for table creation.
+2024-12-14 19:18:52 - fe38ac1e-0abe-4bea-9f26-70fc9615983a - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/dimensional_db_table_creation.sql
+2024-12-14 19:18:52 - fe38ac1e-0abe-4bea-9f26-70fc9615983a - INFO - Table 'dim, sor' created successfully.
+2024-12-14 19:18:52 - fe38ac1e-0abe-4bea-9f26-70fc9615983a - INFO - All dim, sor tables created successfully.
+2024-12-14 19:18:52 - fe38ac1e-0abe-4bea-9f26-70fc9615983a - INFO - Database connection closed.
+2024-12-14 19:18:52 - fe38ac1e-0abe-4bea-9f26-70fc9615983a - INFO - Executing Task 3: Create SCD Tables.
+2024-12-14 19:19:24 - 9e81e185-6b9a-447b-98f7-53c679d2c7e5 - INFO - Initialized DimensionalDataFlow with Execution ID: 9e81e185-6b9a-447b-98f7-53c679d2c7e5
+2024-12-14 19:19:24 - 9e81e185-6b9a-447b-98f7-53c679d2c7e5 - INFO - Starting Dimensional Data Flow execution.
+2024-12-14 19:19:24 - 9e81e185-6b9a-447b-98f7-53c679d2c7e5 - INFO - Executing Task 1: Create Staging Tables.
+2024-12-14 19:19:24 - 9e81e185-6b9a-447b-98f7-53c679d2c7e5 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 19:19:24 - 9e81e185-6b9a-447b-98f7-53c679d2c7e5 - INFO - Database connection established for table creation.
+2024-12-14 19:19:24 - 9e81e185-6b9a-447b-98f7-53c679d2c7e5 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/staging_raw_table_creation.sql
+2024-12-14 19:19:24 - 9e81e185-6b9a-447b-98f7-53c679d2c7e5 - INFO - Table 'staging' created successfully.
+2024-12-14 19:19:24 - 9e81e185-6b9a-447b-98f7-53c679d2c7e5 - INFO - All tables created successfully.
+2024-12-14 19:19:24 - 9e81e185-6b9a-447b-98f7-53c679d2c7e5 - INFO - Database connection closed.
+2024-12-14 19:19:24 - 9e81e185-6b9a-447b-98f7-53c679d2c7e5 - INFO - Executing Task 2: Create Dim Tables and SORs.
+2024-12-14 19:19:24 - 9e81e185-6b9a-447b-98f7-53c679d2c7e5 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 19:19:24 - 9e81e185-6b9a-447b-98f7-53c679d2c7e5 - INFO - Database connection established for table creation.
+2024-12-14 19:19:24 - 9e81e185-6b9a-447b-98f7-53c679d2c7e5 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/dimensional_db_table_creation.sql
+2024-12-14 19:19:24 - 9e81e185-6b9a-447b-98f7-53c679d2c7e5 - INFO - Table 'dim, sor' created successfully.
+2024-12-14 19:19:24 - 9e81e185-6b9a-447b-98f7-53c679d2c7e5 - INFO - All dim, sor tables created successfully.
+2024-12-14 19:19:24 - 9e81e185-6b9a-447b-98f7-53c679d2c7e5 - INFO - Database connection closed.
+2024-12-14 19:19:24 - 9e81e185-6b9a-447b-98f7-53c679d2c7e5 - INFO - Executing Task 3: Create SCD Tables.
+2024-12-14 19:19:24 - 9e81e185-6b9a-447b-98f7-53c679d2c7e5 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 19:19:24 - 9e81e185-6b9a-447b-98f7-53c679d2c7e5 - INFO - Database connection established for table creation.
+2024-12-14 19:19:24 - 9e81e185-6b9a-447b-98f7-53c679d2c7e5 - ERROR - Failed to execute SQL script '/Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/scd_creation.sql': ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]The variable name '@Today' has already been declared. Variable names must be unique within a query batch or stored procedure. (134) (SQLExecDirectW)")
+2024-12-14 19:19:24 - 9e81e185-6b9a-447b-98f7-53c679d2c7e5 - ERROR - Failed to create table 'scd': ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]The variable name '@Today' has already been declared. Variable names must be unique within a query batch or stored procedure. (134) (SQLExecDirectW)")
+2024-12-14 19:19:24 - 9e81e185-6b9a-447b-98f7-53c679d2c7e5 - ERROR - Transaction rolled back due to an error in table creation.
+2024-12-14 19:19:24 - 9e81e185-6b9a-447b-98f7-53c679d2c7e5 - ERROR - Error in create_scd_tables: ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]The variable name '@Today' has already been declared. Variable names must be unique within a query batch or stored procedure. (134) (SQLExecDirectW)")
+2024-12-14 19:19:24 - 9e81e185-6b9a-447b-98f7-53c679d2c7e5 - INFO - Database connection closed.
+2024-12-14 19:19:24 - 9e81e185-6b9a-447b-98f7-53c679d2c7e5 - ERROR - Task 3 Failed: ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]The variable name '@Today' has already been declared. Variable names must be unique within a query batch or stored procedure. (134) (SQLExecDirectW)")
+2024-12-14 19:19:24 - 9e81e185-6b9a-447b-98f7-53c679d2c7e5 - ERROR - Dimensional data pipeline failed: Task 3 Failed: ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]The variable name '@Today' has already been declared. Variable names must be unique within a query batch or stored procedure. (134) (SQLExecDirectW)")
+2024-12-14 19:20:14 - f4210dc1-df1c-49c0-8319-06704750a738 - INFO - Initialized DimensionalDataFlow with Execution ID: f4210dc1-df1c-49c0-8319-06704750a738
+2024-12-14 19:20:14 - f4210dc1-df1c-49c0-8319-06704750a738 - INFO - Starting Dimensional Data Flow execution.
+2024-12-14 19:20:14 - f4210dc1-df1c-49c0-8319-06704750a738 - INFO - Executing Task 1: Create Staging Tables.
+2024-12-14 19:20:14 - f4210dc1-df1c-49c0-8319-06704750a738 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 19:20:14 - f4210dc1-df1c-49c0-8319-06704750a738 - INFO - Database connection established for table creation.
+2024-12-14 19:20:14 - f4210dc1-df1c-49c0-8319-06704750a738 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/staging_raw_table_creation.sql
+2024-12-14 19:20:14 - f4210dc1-df1c-49c0-8319-06704750a738 - INFO - Table 'staging' created successfully.
+2024-12-14 19:20:14 - f4210dc1-df1c-49c0-8319-06704750a738 - INFO - All tables created successfully.
+2024-12-14 19:20:14 - f4210dc1-df1c-49c0-8319-06704750a738 - INFO - Database connection closed.
+2024-12-14 19:20:14 - f4210dc1-df1c-49c0-8319-06704750a738 - INFO - Executing Task 2: Create Dim Tables and SORs.
+2024-12-14 19:20:14 - f4210dc1-df1c-49c0-8319-06704750a738 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 19:20:14 - f4210dc1-df1c-49c0-8319-06704750a738 - INFO - Database connection established for table creation.
+2024-12-14 19:20:15 - f4210dc1-df1c-49c0-8319-06704750a738 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/dimensional_db_table_creation.sql
+2024-12-14 19:20:15 - f4210dc1-df1c-49c0-8319-06704750a738 - INFO - Table 'dim, sor' created successfully.
+2024-12-14 19:20:15 - f4210dc1-df1c-49c0-8319-06704750a738 - INFO - All dim, sor tables created successfully.
+2024-12-14 19:20:15 - f4210dc1-df1c-49c0-8319-06704750a738 - INFO - Database connection closed.
+2024-12-14 19:20:15 - f4210dc1-df1c-49c0-8319-06704750a738 - INFO - Executing Task 3: Create SCD Tables.
+2024-12-14 19:20:15 - f4210dc1-df1c-49c0-8319-06704750a738 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 19:20:15 - f4210dc1-df1c-49c0-8319-06704750a738 - INFO - Database connection established for table creation.
+2024-12-14 19:20:15 - f4210dc1-df1c-49c0-8319-06704750a738 - ERROR - Failed to execute SQL script '/Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/scd_creation.sql': ('42000', '[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Must declare the scalar variable "@Today_Employees". (137) (SQLExecDirectW)')
+2024-12-14 19:20:15 - f4210dc1-df1c-49c0-8319-06704750a738 - ERROR - Failed to create table 'scd': ('42000', '[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Must declare the scalar variable "@Today_Employees". (137) (SQLExecDirectW)')
+2024-12-14 19:20:15 - f4210dc1-df1c-49c0-8319-06704750a738 - ERROR - Transaction rolled back due to an error in table creation.
+2024-12-14 19:20:15 - f4210dc1-df1c-49c0-8319-06704750a738 - ERROR - Error in create_scd_tables: ('42000', '[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Must declare the scalar variable "@Today_Employees". (137) (SQLExecDirectW)')
+2024-12-14 19:20:15 - f4210dc1-df1c-49c0-8319-06704750a738 - INFO - Database connection closed.
+2024-12-14 19:20:15 - f4210dc1-df1c-49c0-8319-06704750a738 - ERROR - Task 3 Failed: ('42000', '[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Must declare the scalar variable "@Today_Employees". (137) (SQLExecDirectW)')
+2024-12-14 19:20:15 - f4210dc1-df1c-49c0-8319-06704750a738 - ERROR - Dimensional data pipeline failed: Task 3 Failed: ('42000', '[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Must declare the scalar variable "@Today_Employees". (137) (SQLExecDirectW)')
+2024-12-14 19:21:26 - 292179cd-d3d9-4723-b0e5-b91e77e9f3af - INFO - Initialized DimensionalDataFlow with Execution ID: 292179cd-d3d9-4723-b0e5-b91e77e9f3af
+2024-12-14 19:21:26 - 292179cd-d3d9-4723-b0e5-b91e77e9f3af - INFO - Starting Dimensional Data Flow execution.
+2024-12-14 19:21:26 - 292179cd-d3d9-4723-b0e5-b91e77e9f3af - INFO - Executing Task 1: Create Staging Tables.
+2024-12-14 19:21:26 - 292179cd-d3d9-4723-b0e5-b91e77e9f3af - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 19:21:26 - 292179cd-d3d9-4723-b0e5-b91e77e9f3af - INFO - Database connection established for table creation.
+2024-12-14 19:21:26 - 292179cd-d3d9-4723-b0e5-b91e77e9f3af - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/staging_raw_table_creation.sql
+2024-12-14 19:21:26 - 292179cd-d3d9-4723-b0e5-b91e77e9f3af - INFO - Table 'staging' created successfully.
+2024-12-14 19:21:26 - 292179cd-d3d9-4723-b0e5-b91e77e9f3af - INFO - All tables created successfully.
+2024-12-14 19:21:26 - 292179cd-d3d9-4723-b0e5-b91e77e9f3af - INFO - Database connection closed.
+2024-12-14 19:21:26 - 292179cd-d3d9-4723-b0e5-b91e77e9f3af - INFO - Executing Task 2: Create Dim Tables and SORs.
+2024-12-14 19:21:26 - 292179cd-d3d9-4723-b0e5-b91e77e9f3af - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 19:21:26 - 292179cd-d3d9-4723-b0e5-b91e77e9f3af - INFO - Database connection established for table creation.
+2024-12-14 19:21:27 - 292179cd-d3d9-4723-b0e5-b91e77e9f3af - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/dimensional_db_table_creation.sql
+2024-12-14 19:21:27 - 292179cd-d3d9-4723-b0e5-b91e77e9f3af - INFO - Table 'dim, sor' created successfully.
+2024-12-14 19:21:27 - 292179cd-d3d9-4723-b0e5-b91e77e9f3af - INFO - All dim, sor tables created successfully.
+2024-12-14 19:21:27 - 292179cd-d3d9-4723-b0e5-b91e77e9f3af - INFO - Database connection closed.
+2024-12-14 19:21:27 - 292179cd-d3d9-4723-b0e5-b91e77e9f3af - INFO - Executing Task 3: Create SCD Tables.
+2024-12-14 19:21:27 - 292179cd-d3d9-4723-b0e5-b91e77e9f3af - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 19:21:27 - 292179cd-d3d9-4723-b0e5-b91e77e9f3af - INFO - Database connection established for table creation.
+2024-12-14 19:21:27 - 292179cd-d3d9-4723-b0e5-b91e77e9f3af - ERROR - Failed to execute SQL script '/Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/scd_creation.sql': ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]The variable name '@Yesterday' has already been declared. Variable names must be unique within a query batch or stored procedure. (134) (SQLExecDirectW)")
+2024-12-14 19:21:27 - 292179cd-d3d9-4723-b0e5-b91e77e9f3af - ERROR - Failed to create table 'scd': ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]The variable name '@Yesterday' has already been declared. Variable names must be unique within a query batch or stored procedure. (134) (SQLExecDirectW)")
+2024-12-14 19:21:27 - 292179cd-d3d9-4723-b0e5-b91e77e9f3af - ERROR - Transaction rolled back due to an error in table creation.
+2024-12-14 19:21:27 - 292179cd-d3d9-4723-b0e5-b91e77e9f3af - ERROR - Error in create_scd_tables: ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]The variable name '@Yesterday' has already been declared. Variable names must be unique within a query batch or stored procedure. (134) (SQLExecDirectW)")
+2024-12-14 19:21:27 - 292179cd-d3d9-4723-b0e5-b91e77e9f3af - INFO - Database connection closed.
+2024-12-14 19:21:27 - 292179cd-d3d9-4723-b0e5-b91e77e9f3af - ERROR - Task 3 Failed: ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]The variable name '@Yesterday' has already been declared. Variable names must be unique within a query batch or stored procedure. (134) (SQLExecDirectW)")
+2024-12-14 19:21:27 - 292179cd-d3d9-4723-b0e5-b91e77e9f3af - ERROR - Dimensional data pipeline failed: Task 3 Failed: ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]The variable name '@Yesterday' has already been declared. Variable names must be unique within a query batch or stored procedure. (134) (SQLExecDirectW)")
+2024-12-14 19:22:01 - 1c8e5c0f-0344-45ad-b4c5-5f8ebde2bf9e - INFO - Initialized DimensionalDataFlow with Execution ID: 1c8e5c0f-0344-45ad-b4c5-5f8ebde2bf9e
+2024-12-14 19:22:01 - 1c8e5c0f-0344-45ad-b4c5-5f8ebde2bf9e - INFO - Starting Dimensional Data Flow execution.
+2024-12-14 19:22:01 - 1c8e5c0f-0344-45ad-b4c5-5f8ebde2bf9e - INFO - Executing Task 1: Create Staging Tables.
+2024-12-14 19:22:02 - 1c8e5c0f-0344-45ad-b4c5-5f8ebde2bf9e - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 19:22:02 - 1c8e5c0f-0344-45ad-b4c5-5f8ebde2bf9e - INFO - Database connection established for table creation.
+2024-12-14 19:22:02 - 1c8e5c0f-0344-45ad-b4c5-5f8ebde2bf9e - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/staging_raw_table_creation.sql
+2024-12-14 19:22:02 - 1c8e5c0f-0344-45ad-b4c5-5f8ebde2bf9e - INFO - Table 'staging' created successfully.
+2024-12-14 19:22:02 - 1c8e5c0f-0344-45ad-b4c5-5f8ebde2bf9e - INFO - All tables created successfully.
+2024-12-14 19:22:02 - 1c8e5c0f-0344-45ad-b4c5-5f8ebde2bf9e - INFO - Database connection closed.
+2024-12-14 19:22:02 - 1c8e5c0f-0344-45ad-b4c5-5f8ebde2bf9e - INFO - Executing Task 2: Create Dim Tables and SORs.
+2024-12-14 19:22:02 - 1c8e5c0f-0344-45ad-b4c5-5f8ebde2bf9e - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 19:22:02 - 1c8e5c0f-0344-45ad-b4c5-5f8ebde2bf9e - INFO - Database connection established for table creation.
+2024-12-14 19:22:02 - 1c8e5c0f-0344-45ad-b4c5-5f8ebde2bf9e - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/dimensional_db_table_creation.sql
+2024-12-14 19:22:02 - 1c8e5c0f-0344-45ad-b4c5-5f8ebde2bf9e - INFO - Table 'dim, sor' created successfully.
+2024-12-14 19:22:02 - 1c8e5c0f-0344-45ad-b4c5-5f8ebde2bf9e - INFO - All dim, sor tables created successfully.
+2024-12-14 19:22:02 - 1c8e5c0f-0344-45ad-b4c5-5f8ebde2bf9e - INFO - Database connection closed.
+2024-12-14 19:22:02 - 1c8e5c0f-0344-45ad-b4c5-5f8ebde2bf9e - INFO - Executing Task 3: Create SCD Tables.
+2024-12-14 19:22:02 - 1c8e5c0f-0344-45ad-b4c5-5f8ebde2bf9e - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 19:22:02 - 1c8e5c0f-0344-45ad-b4c5-5f8ebde2bf9e - INFO - Database connection established for table creation.
+2024-12-14 19:22:02 - 1c8e5c0f-0344-45ad-b4c5-5f8ebde2bf9e - ERROR - Failed to execute SQL script '/Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/scd_creation.sql': ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'TerritoryDescription'. (207) (SQLExecDirectW)")
+2024-12-14 19:22:02 - 1c8e5c0f-0344-45ad-b4c5-5f8ebde2bf9e - ERROR - Failed to create table 'scd': ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'TerritoryDescription'. (207) (SQLExecDirectW)")
+2024-12-14 19:22:02 - 1c8e5c0f-0344-45ad-b4c5-5f8ebde2bf9e - ERROR - Transaction rolled back due to an error in table creation.
+2024-12-14 19:22:02 - 1c8e5c0f-0344-45ad-b4c5-5f8ebde2bf9e - ERROR - Error in create_scd_tables: ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'TerritoryDescription'. (207) (SQLExecDirectW)")
+2024-12-14 19:22:02 - 1c8e5c0f-0344-45ad-b4c5-5f8ebde2bf9e - INFO - Database connection closed.
+2024-12-14 19:22:02 - 1c8e5c0f-0344-45ad-b4c5-5f8ebde2bf9e - ERROR - Task 3 Failed: ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'TerritoryDescription'. (207) (SQLExecDirectW)")
+2024-12-14 19:22:02 - 1c8e5c0f-0344-45ad-b4c5-5f8ebde2bf9e - ERROR - Dimensional data pipeline failed: Task 3 Failed: ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'TerritoryDescription'. (207) (SQLExecDirectW)")
+2024-12-14 19:26:06 - 75d22206-2f19-4b8d-9b82-37a7ed4c0119 - INFO - Initialized DimensionalDataFlow with Execution ID: 75d22206-2f19-4b8d-9b82-37a7ed4c0119
+2024-12-14 19:26:06 - 75d22206-2f19-4b8d-9b82-37a7ed4c0119 - INFO - Starting Dimensional Data Flow execution.
+2024-12-14 19:26:06 - 75d22206-2f19-4b8d-9b82-37a7ed4c0119 - INFO - Executing Task 1: Create Staging Tables.
+2024-12-14 19:26:07 - 75d22206-2f19-4b8d-9b82-37a7ed4c0119 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 19:26:07 - 75d22206-2f19-4b8d-9b82-37a7ed4c0119 - INFO - Database connection established for table creation.
+2024-12-14 19:26:07 - 75d22206-2f19-4b8d-9b82-37a7ed4c0119 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/staging_raw_table_creation.sql
+2024-12-14 19:26:07 - 75d22206-2f19-4b8d-9b82-37a7ed4c0119 - INFO - Table 'staging' created successfully.
+2024-12-14 19:26:07 - 75d22206-2f19-4b8d-9b82-37a7ed4c0119 - INFO - All tables created successfully.
+2024-12-14 19:26:07 - 75d22206-2f19-4b8d-9b82-37a7ed4c0119 - INFO - Database connection closed.
+2024-12-14 19:26:07 - 75d22206-2f19-4b8d-9b82-37a7ed4c0119 - INFO - Executing Task 2: Create Dim Tables and SORs.
+2024-12-14 19:26:07 - 75d22206-2f19-4b8d-9b82-37a7ed4c0119 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 19:26:07 - 75d22206-2f19-4b8d-9b82-37a7ed4c0119 - INFO - Database connection established for table creation.
+2024-12-14 19:26:07 - 75d22206-2f19-4b8d-9b82-37a7ed4c0119 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/dimensional_db_table_creation.sql
+2024-12-14 19:26:07 - 75d22206-2f19-4b8d-9b82-37a7ed4c0119 - INFO - Table 'dim, sor' created successfully.
+2024-12-14 19:26:07 - 75d22206-2f19-4b8d-9b82-37a7ed4c0119 - INFO - All dim, sor tables created successfully.
+2024-12-14 19:26:07 - 75d22206-2f19-4b8d-9b82-37a7ed4c0119 - INFO - Database connection closed.
+2024-12-14 19:26:07 - 75d22206-2f19-4b8d-9b82-37a7ed4c0119 - INFO - Executing Task 3: Create SCD Tables.
+2024-12-14 19:26:07 - 75d22206-2f19-4b8d-9b82-37a7ed4c0119 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 19:26:07 - 75d22206-2f19-4b8d-9b82-37a7ed4c0119 - INFO - Database connection established for table creation.
+2024-12-14 19:26:07 - 75d22206-2f19-4b8d-9b82-37a7ed4c0119 - ERROR - Failed to execute SQL script '/Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/scd_creation.sql': ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'TerritoryDescription'. (207) (SQLExecDirectW)")
+2024-12-14 19:26:07 - 75d22206-2f19-4b8d-9b82-37a7ed4c0119 - ERROR - Failed to create table 'scd': ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'TerritoryDescription'. (207) (SQLExecDirectW)")
+2024-12-14 19:26:07 - 75d22206-2f19-4b8d-9b82-37a7ed4c0119 - ERROR - Transaction rolled back due to an error in table creation.
+2024-12-14 19:26:07 - 75d22206-2f19-4b8d-9b82-37a7ed4c0119 - ERROR - Error in create_scd_tables: ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'TerritoryDescription'. (207) (SQLExecDirectW)")
+2024-12-14 19:26:07 - 75d22206-2f19-4b8d-9b82-37a7ed4c0119 - INFO - Database connection closed.
+2024-12-14 19:26:07 - 75d22206-2f19-4b8d-9b82-37a7ed4c0119 - ERROR - Task 3 Failed: ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'TerritoryDescription'. (207) (SQLExecDirectW)")
+2024-12-14 19:26:07 - 75d22206-2f19-4b8d-9b82-37a7ed4c0119 - ERROR - Dimensional data pipeline failed: Task 3 Failed: ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'TerritoryDescription'. (207) (SQLExecDirectW)")
+2024-12-14 19:26:53 - f905c9dc-8623-44d3-98ec-02890eb7dbe4 - INFO - Initialized DimensionalDataFlow with Execution ID: f905c9dc-8623-44d3-98ec-02890eb7dbe4
+2024-12-14 19:26:53 - f905c9dc-8623-44d3-98ec-02890eb7dbe4 - INFO - Starting Dimensional Data Flow execution.
+2024-12-14 19:26:53 - f905c9dc-8623-44d3-98ec-02890eb7dbe4 - INFO - Executing Task 1: Create Staging Tables.
+2024-12-14 19:26:53 - f905c9dc-8623-44d3-98ec-02890eb7dbe4 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 19:26:53 - f905c9dc-8623-44d3-98ec-02890eb7dbe4 - INFO - Database connection established for table creation.
+2024-12-14 19:26:53 - f905c9dc-8623-44d3-98ec-02890eb7dbe4 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/staging_raw_table_creation.sql
+2024-12-14 19:26:53 - f905c9dc-8623-44d3-98ec-02890eb7dbe4 - INFO - Table 'staging' created successfully.
+2024-12-14 19:26:53 - f905c9dc-8623-44d3-98ec-02890eb7dbe4 - INFO - All tables created successfully.
+2024-12-14 19:26:53 - f905c9dc-8623-44d3-98ec-02890eb7dbe4 - INFO - Database connection closed.
+2024-12-14 19:26:53 - f905c9dc-8623-44d3-98ec-02890eb7dbe4 - INFO - Executing Task 2: Create Dim Tables and SORs.
+2024-12-14 19:26:53 - f905c9dc-8623-44d3-98ec-02890eb7dbe4 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 19:26:53 - f905c9dc-8623-44d3-98ec-02890eb7dbe4 - INFO - Database connection established for table creation.
+2024-12-14 19:26:53 - f905c9dc-8623-44d3-98ec-02890eb7dbe4 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/dimensional_db_table_creation.sql
+2024-12-14 19:26:53 - f905c9dc-8623-44d3-98ec-02890eb7dbe4 - INFO - Table 'dim, sor' created successfully.
+2024-12-14 19:26:53 - f905c9dc-8623-44d3-98ec-02890eb7dbe4 - INFO - All dim, sor tables created successfully.
+2024-12-14 19:26:53 - f905c9dc-8623-44d3-98ec-02890eb7dbe4 - INFO - Database connection closed.
+2024-12-14 19:26:53 - f905c9dc-8623-44d3-98ec-02890eb7dbe4 - INFO - Executing Task 3: Create SCD Tables.
+2024-12-14 19:26:53 - f905c9dc-8623-44d3-98ec-02890eb7dbe4 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 19:26:53 - f905c9dc-8623-44d3-98ec-02890eb7dbe4 - INFO - Database connection established for table creation.
+2024-12-14 19:26:53 - f905c9dc-8623-44d3-98ec-02890eb7dbe4 - ERROR - Failed to execute SQL script '/Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/scd_creation.sql': ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'TerritoryDescription'. (207) (SQLExecDirectW)")
+2024-12-14 19:26:53 - f905c9dc-8623-44d3-98ec-02890eb7dbe4 - ERROR - Failed to create table 'scd': ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'TerritoryDescription'. (207) (SQLExecDirectW)")
+2024-12-14 19:26:53 - f905c9dc-8623-44d3-98ec-02890eb7dbe4 - ERROR - Transaction rolled back due to an error in table creation.
+2024-12-14 19:26:53 - f905c9dc-8623-44d3-98ec-02890eb7dbe4 - ERROR - Error in create_scd_tables: ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'TerritoryDescription'. (207) (SQLExecDirectW)")
+2024-12-14 19:26:53 - f905c9dc-8623-44d3-98ec-02890eb7dbe4 - INFO - Database connection closed.
+2024-12-14 19:26:53 - f905c9dc-8623-44d3-98ec-02890eb7dbe4 - ERROR - Task 3 Failed: ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'TerritoryDescription'. (207) (SQLExecDirectW)")
+2024-12-14 19:26:53 - f905c9dc-8623-44d3-98ec-02890eb7dbe4 - ERROR - Dimensional data pipeline failed: Task 3 Failed: ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'TerritoryDescription'. (207) (SQLExecDirectW)")
+2024-12-14 19:28:16 - 8d4d380e-654d-4f66-8545-2c6552645490 - INFO - Initialized DimensionalDataFlow with Execution ID: 8d4d380e-654d-4f66-8545-2c6552645490
+2024-12-14 19:28:16 - 8d4d380e-654d-4f66-8545-2c6552645490 - INFO - Starting Dimensional Data Flow execution.
+2024-12-14 19:28:16 - 8d4d380e-654d-4f66-8545-2c6552645490 - INFO - Executing Task 1: Create Staging Tables.
+2024-12-14 19:28:16 - 8d4d380e-654d-4f66-8545-2c6552645490 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 19:28:16 - 8d4d380e-654d-4f66-8545-2c6552645490 - INFO - Database connection established for table creation.
+2024-12-14 19:28:16 - 8d4d380e-654d-4f66-8545-2c6552645490 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/staging_raw_table_creation.sql
+2024-12-14 19:28:16 - 8d4d380e-654d-4f66-8545-2c6552645490 - INFO - Table 'staging' created successfully.
+2024-12-14 19:28:16 - 8d4d380e-654d-4f66-8545-2c6552645490 - INFO - All tables created successfully.
+2024-12-14 19:28:16 - 8d4d380e-654d-4f66-8545-2c6552645490 - INFO - Database connection closed.
+2024-12-14 19:28:16 - 8d4d380e-654d-4f66-8545-2c6552645490 - INFO - Executing Task 2: Create Dim Tables and SORs.
+2024-12-14 19:28:16 - 8d4d380e-654d-4f66-8545-2c6552645490 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 19:28:16 - 8d4d380e-654d-4f66-8545-2c6552645490 - INFO - Database connection established for table creation.
+2024-12-14 19:28:16 - 8d4d380e-654d-4f66-8545-2c6552645490 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/dimensional_db_table_creation.sql
+2024-12-14 19:28:16 - 8d4d380e-654d-4f66-8545-2c6552645490 - INFO - Table 'dim, sor' created successfully.
+2024-12-14 19:28:16 - 8d4d380e-654d-4f66-8545-2c6552645490 - INFO - All dim, sor tables created successfully.
+2024-12-14 19:28:16 - 8d4d380e-654d-4f66-8545-2c6552645490 - INFO - Database connection closed.
+2024-12-14 19:28:16 - 8d4d380e-654d-4f66-8545-2c6552645490 - INFO - Executing Task 3: Create SCD Tables.
+2024-12-14 19:28:16 - 8d4d380e-654d-4f66-8545-2c6552645490 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 19:28:16 - 8d4d380e-654d-4f66-8545-2c6552645490 - INFO - Database connection established for table creation.
+2024-12-14 19:28:16 - 8d4d380e-654d-4f66-8545-2c6552645490 - ERROR - Failed to execute SQL script '/Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/scd_creation.sql': ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'TerritoryDescription'. (207) (SQLExecDirectW)")
+2024-12-14 19:28:16 - 8d4d380e-654d-4f66-8545-2c6552645490 - ERROR - Failed to create table 'scd': ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'TerritoryDescription'. (207) (SQLExecDirectW)")
+2024-12-14 19:28:16 - 8d4d380e-654d-4f66-8545-2c6552645490 - ERROR - Transaction rolled back due to an error in table creation.
+2024-12-14 19:28:16 - 8d4d380e-654d-4f66-8545-2c6552645490 - ERROR - Error in create_scd_tables: ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'TerritoryDescription'. (207) (SQLExecDirectW)")
+2024-12-14 19:28:16 - 8d4d380e-654d-4f66-8545-2c6552645490 - INFO - Database connection closed.
+2024-12-14 19:28:16 - 8d4d380e-654d-4f66-8545-2c6552645490 - ERROR - Task 3 Failed: ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'TerritoryDescription'. (207) (SQLExecDirectW)")
+2024-12-14 19:28:16 - 8d4d380e-654d-4f66-8545-2c6552645490 - ERROR - Dimensional data pipeline failed: Task 3 Failed: ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'TerritoryDescription'. (207) (SQLExecDirectW)")
+2024-12-14 19:30:12 - 22f7c309-9cc6-4986-82d2-abbbe761c6b3 - INFO - Initialized DimensionalDataFlow with Execution ID: 22f7c309-9cc6-4986-82d2-abbbe761c6b3
+2024-12-14 19:30:12 - 22f7c309-9cc6-4986-82d2-abbbe761c6b3 - INFO - Starting Dimensional Data Flow execution.
+2024-12-14 19:30:12 - 22f7c309-9cc6-4986-82d2-abbbe761c6b3 - INFO - Executing Task 1: Create Staging Tables.
+2024-12-14 19:30:12 - 22f7c309-9cc6-4986-82d2-abbbe761c6b3 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 19:30:12 - 22f7c309-9cc6-4986-82d2-abbbe761c6b3 - INFO - Database connection established for table creation.
+2024-12-14 19:30:12 - 22f7c309-9cc6-4986-82d2-abbbe761c6b3 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/staging_raw_table_creation.sql
+2024-12-14 19:30:12 - 22f7c309-9cc6-4986-82d2-abbbe761c6b3 - INFO - Table 'staging' created successfully.
+2024-12-14 19:30:12 - 22f7c309-9cc6-4986-82d2-abbbe761c6b3 - INFO - All tables created successfully.
+2024-12-14 19:30:12 - 22f7c309-9cc6-4986-82d2-abbbe761c6b3 - INFO - Database connection closed.
+2024-12-14 19:30:12 - 22f7c309-9cc6-4986-82d2-abbbe761c6b3 - INFO - Executing Task 2: Create Dim Tables and SORs.
+2024-12-14 19:30:12 - 22f7c309-9cc6-4986-82d2-abbbe761c6b3 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 19:30:12 - 22f7c309-9cc6-4986-82d2-abbbe761c6b3 - INFO - Database connection established for table creation.
+2024-12-14 19:30:12 - 22f7c309-9cc6-4986-82d2-abbbe761c6b3 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/dimensional_db_table_creation.sql
+2024-12-14 19:30:12 - 22f7c309-9cc6-4986-82d2-abbbe761c6b3 - INFO - Table 'dim, sor' created successfully.
+2024-12-14 19:30:12 - 22f7c309-9cc6-4986-82d2-abbbe761c6b3 - INFO - All dim, sor tables created successfully.
+2024-12-14 19:30:12 - 22f7c309-9cc6-4986-82d2-abbbe761c6b3 - INFO - Database connection closed.
+2024-12-14 19:30:12 - 22f7c309-9cc6-4986-82d2-abbbe761c6b3 - INFO - Executing Task 3: Create SCD Tables.
+2024-12-14 19:30:12 - 22f7c309-9cc6-4986-82d2-abbbe761c6b3 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 19:30:12 - 22f7c309-9cc6-4986-82d2-abbbe761c6b3 - INFO - Database connection established for table creation.
+2024-12-14 19:30:12 - 22f7c309-9cc6-4986-82d2-abbbe761c6b3 - ERROR - Failed to execute SQL script '/Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/scd_creation.sql': ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'TerritoryDescription'. (207) (SQLExecDirectW)")
+2024-12-14 19:30:12 - 22f7c309-9cc6-4986-82d2-abbbe761c6b3 - ERROR - Failed to create table 'scd': ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'TerritoryDescription'. (207) (SQLExecDirectW)")
+2024-12-14 19:30:12 - 22f7c309-9cc6-4986-82d2-abbbe761c6b3 - ERROR - Transaction rolled back due to an error in table creation.
+2024-12-14 19:30:12 - 22f7c309-9cc6-4986-82d2-abbbe761c6b3 - ERROR - Error in create_scd_tables: ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'TerritoryDescription'. (207) (SQLExecDirectW)")
+2024-12-14 19:30:12 - 22f7c309-9cc6-4986-82d2-abbbe761c6b3 - INFO - Database connection closed.
+2024-12-14 19:30:12 - 22f7c309-9cc6-4986-82d2-abbbe761c6b3 - ERROR - Task 3 Failed: ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'TerritoryDescription'. (207) (SQLExecDirectW)")
+2024-12-14 19:30:12 - 22f7c309-9cc6-4986-82d2-abbbe761c6b3 - ERROR - Dimensional data pipeline failed: Task 3 Failed: ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'TerritoryDescription'. (207) (SQLExecDirectW)")
+2024-12-14 19:33:18 - 62aac956-346f-4909-b9f5-2c33eca8c563 - INFO - Initialized DimensionalDataFlow with Execution ID: 62aac956-346f-4909-b9f5-2c33eca8c563
+2024-12-14 19:33:18 - 62aac956-346f-4909-b9f5-2c33eca8c563 - INFO - Starting Dimensional Data Flow execution.
+2024-12-14 19:33:18 - 62aac956-346f-4909-b9f5-2c33eca8c563 - INFO - Executing Task 1: Create Staging Tables.
+2024-12-14 19:33:18 - 62aac956-346f-4909-b9f5-2c33eca8c563 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 19:33:18 - 62aac956-346f-4909-b9f5-2c33eca8c563 - INFO - Database connection established for table creation.
+2024-12-14 19:33:18 - 62aac956-346f-4909-b9f5-2c33eca8c563 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/staging_raw_table_creation.sql
+2024-12-14 19:33:18 - 62aac956-346f-4909-b9f5-2c33eca8c563 - INFO - Table 'staging' created successfully.
+2024-12-14 19:33:18 - 62aac956-346f-4909-b9f5-2c33eca8c563 - INFO - All tables created successfully.
+2024-12-14 19:33:18 - 62aac956-346f-4909-b9f5-2c33eca8c563 - INFO - Database connection closed.
+2024-12-14 19:33:18 - 62aac956-346f-4909-b9f5-2c33eca8c563 - INFO - Executing Task 2: Create Dim Tables and SORs.
+2024-12-14 19:33:18 - 62aac956-346f-4909-b9f5-2c33eca8c563 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 19:33:18 - 62aac956-346f-4909-b9f5-2c33eca8c563 - INFO - Database connection established for table creation.
+2024-12-14 19:33:18 - 62aac956-346f-4909-b9f5-2c33eca8c563 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/dimensional_db_table_creation.sql
+2024-12-14 19:33:18 - 62aac956-346f-4909-b9f5-2c33eca8c563 - INFO - Table 'dim, sor' created successfully.
+2024-12-14 19:33:18 - 62aac956-346f-4909-b9f5-2c33eca8c563 - INFO - All dim, sor tables created successfully.
+2024-12-14 19:33:18 - 62aac956-346f-4909-b9f5-2c33eca8c563 - INFO - Database connection closed.
+2024-12-14 19:33:18 - 62aac956-346f-4909-b9f5-2c33eca8c563 - INFO - Executing Task 3: Create SCD Tables.
+2024-12-14 19:33:18 - 62aac956-346f-4909-b9f5-2c33eca8c563 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 19:33:18 - 62aac956-346f-4909-b9f5-2c33eca8c563 - INFO - Database connection established for table creation.
+2024-12-14 19:33:18 - 62aac956-346f-4909-b9f5-2c33eca8c563 - ERROR - Failed to execute SQL script '/Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/scd_creation.sql': ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'TerritoryDescription'. (207) (SQLExecDirectW)")
+2024-12-14 19:33:18 - 62aac956-346f-4909-b9f5-2c33eca8c563 - ERROR - Failed to create table 'scd': ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'TerritoryDescription'. (207) (SQLExecDirectW)")
+2024-12-14 19:33:18 - 62aac956-346f-4909-b9f5-2c33eca8c563 - ERROR - Transaction rolled back due to an error in table creation.
+2024-12-14 19:33:18 - 62aac956-346f-4909-b9f5-2c33eca8c563 - ERROR - Error in create_scd_tables: ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'TerritoryDescription'. (207) (SQLExecDirectW)")
+2024-12-14 19:33:18 - 62aac956-346f-4909-b9f5-2c33eca8c563 - INFO - Database connection closed.
+2024-12-14 19:33:18 - 62aac956-346f-4909-b9f5-2c33eca8c563 - ERROR - Task 3 Failed: ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'TerritoryDescription'. (207) (SQLExecDirectW)")
+2024-12-14 19:33:18 - 62aac956-346f-4909-b9f5-2c33eca8c563 - ERROR - Dimensional data pipeline failed: Task 3 Failed: ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'TerritoryDescription'. (207) (SQLExecDirectW)")
+2024-12-14 19:38:24 - dc467cae-1122-4b8f-9040-40d4ea14072a - INFO - Initialized DimensionalDataFlow with Execution ID: dc467cae-1122-4b8f-9040-40d4ea14072a
+2024-12-14 19:38:24 - dc467cae-1122-4b8f-9040-40d4ea14072a - INFO - Starting Dimensional Data Flow execution.
+2024-12-14 19:38:24 - dc467cae-1122-4b8f-9040-40d4ea14072a - INFO - Executing Task 1: Create Staging Tables.
+2024-12-14 19:38:24 - dc467cae-1122-4b8f-9040-40d4ea14072a - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 19:38:24 - dc467cae-1122-4b8f-9040-40d4ea14072a - INFO - Database connection established for table creation.
+2024-12-14 19:38:24 - dc467cae-1122-4b8f-9040-40d4ea14072a - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/staging_raw_table_creation.sql
+2024-12-14 19:38:24 - dc467cae-1122-4b8f-9040-40d4ea14072a - INFO - Table 'staging' created successfully.
+2024-12-14 19:38:24 - dc467cae-1122-4b8f-9040-40d4ea14072a - INFO - All tables created successfully.
+2024-12-14 19:38:24 - dc467cae-1122-4b8f-9040-40d4ea14072a - INFO - Database connection closed.
+2024-12-14 19:38:24 - dc467cae-1122-4b8f-9040-40d4ea14072a - INFO - Executing Task 2: Create Dim Tables and SORs.
+2024-12-14 19:38:24 - dc467cae-1122-4b8f-9040-40d4ea14072a - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 19:38:24 - dc467cae-1122-4b8f-9040-40d4ea14072a - INFO - Database connection established for table creation.
+2024-12-14 19:38:24 - dc467cae-1122-4b8f-9040-40d4ea14072a - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/dimensional_db_table_creation.sql
+2024-12-14 19:38:24 - dc467cae-1122-4b8f-9040-40d4ea14072a - INFO - Table 'dim, sor' created successfully.
+2024-12-14 19:38:24 - dc467cae-1122-4b8f-9040-40d4ea14072a - INFO - All dim, sor tables created successfully.
+2024-12-14 19:38:24 - dc467cae-1122-4b8f-9040-40d4ea14072a - INFO - Database connection closed.
+2024-12-14 19:38:24 - dc467cae-1122-4b8f-9040-40d4ea14072a - INFO - Executing Task 3: Create SCD Tables.
+2024-12-14 19:38:24 - dc467cae-1122-4b8f-9040-40d4ea14072a - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 19:38:24 - dc467cae-1122-4b8f-9040-40d4ea14072a - INFO - Database connection established for table creation.
+2024-12-14 19:38:24 - dc467cae-1122-4b8f-9040-40d4ea14072a - ERROR - Failed to execute SQL script '/Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/scd_creation.sql': ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'SupplierID'. (207) (SQLExecDirectW)")
+2024-12-14 19:38:24 - dc467cae-1122-4b8f-9040-40d4ea14072a - ERROR - Failed to create table 'scd': ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'SupplierID'. (207) (SQLExecDirectW)")
+2024-12-14 19:38:24 - dc467cae-1122-4b8f-9040-40d4ea14072a - ERROR - Transaction rolled back due to an error in table creation.
+2024-12-14 19:38:24 - dc467cae-1122-4b8f-9040-40d4ea14072a - ERROR - Error in create_scd_tables: ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'SupplierID'. (207) (SQLExecDirectW)")
+2024-12-14 19:38:24 - dc467cae-1122-4b8f-9040-40d4ea14072a - INFO - Database connection closed.
+2024-12-14 19:38:24 - dc467cae-1122-4b8f-9040-40d4ea14072a - ERROR - Task 3 Failed: ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'SupplierID'. (207) (SQLExecDirectW)")
+2024-12-14 19:38:24 - dc467cae-1122-4b8f-9040-40d4ea14072a - ERROR - Dimensional data pipeline failed: Task 3 Failed: ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'SupplierID'. (207) (SQLExecDirectW)")
+2024-12-14 19:42:11 - 64c170ad-2b07-4d85-a9e9-dda273915f00 - INFO - Initialized DimensionalDataFlow with Execution ID: 64c170ad-2b07-4d85-a9e9-dda273915f00
+2024-12-14 19:42:11 - 64c170ad-2b07-4d85-a9e9-dda273915f00 - INFO - Starting Dimensional Data Flow execution.
+2024-12-14 19:42:11 - 64c170ad-2b07-4d85-a9e9-dda273915f00 - INFO - Executing Task 1: Create Staging Tables.
+2024-12-14 19:42:11 - 64c170ad-2b07-4d85-a9e9-dda273915f00 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 19:42:11 - 64c170ad-2b07-4d85-a9e9-dda273915f00 - INFO - Database connection established for table creation.
+2024-12-14 19:42:11 - 64c170ad-2b07-4d85-a9e9-dda273915f00 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/staging_raw_table_creation.sql
+2024-12-14 19:42:11 - 64c170ad-2b07-4d85-a9e9-dda273915f00 - INFO - Table 'staging' created successfully.
+2024-12-14 19:42:11 - 64c170ad-2b07-4d85-a9e9-dda273915f00 - INFO - All tables created successfully.
+2024-12-14 19:42:11 - 64c170ad-2b07-4d85-a9e9-dda273915f00 - INFO - Database connection closed.
+2024-12-14 19:42:11 - 64c170ad-2b07-4d85-a9e9-dda273915f00 - INFO - Executing Task 2: Create Dim Tables and SORs.
+2024-12-14 19:42:11 - 64c170ad-2b07-4d85-a9e9-dda273915f00 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 19:42:11 - 64c170ad-2b07-4d85-a9e9-dda273915f00 - INFO - Database connection established for table creation.
+2024-12-14 19:42:11 - 64c170ad-2b07-4d85-a9e9-dda273915f00 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/dimensional_db_table_creation.sql
+2024-12-14 19:42:11 - 64c170ad-2b07-4d85-a9e9-dda273915f00 - INFO - Table 'dim, sor' created successfully.
+2024-12-14 19:42:11 - 64c170ad-2b07-4d85-a9e9-dda273915f00 - INFO - All dim, sor tables created successfully.
+2024-12-14 19:42:11 - 64c170ad-2b07-4d85-a9e9-dda273915f00 - INFO - Database connection closed.
+2024-12-14 19:42:11 - 64c170ad-2b07-4d85-a9e9-dda273915f00 - INFO - Executing Task 3: Create SCD Tables.
+2024-12-14 19:42:11 - 64c170ad-2b07-4d85-a9e9-dda273915f00 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 19:42:11 - 64c170ad-2b07-4d85-a9e9-dda273915f00 - INFO - Database connection established for table creation.
+2024-12-14 19:42:11 - 64c170ad-2b07-4d85-a9e9-dda273915f00 - ERROR - Failed to execute SQL script '/Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/scd_creation.sql': ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'TerritoryID_nk'. (207) (SQLExecDirectW)")
+2024-12-14 19:42:11 - 64c170ad-2b07-4d85-a9e9-dda273915f00 - ERROR - Failed to create table 'scd': ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'TerritoryID_nk'. (207) (SQLExecDirectW)")
+2024-12-14 19:42:11 - 64c170ad-2b07-4d85-a9e9-dda273915f00 - ERROR - Transaction rolled back due to an error in table creation.
+2024-12-14 19:42:11 - 64c170ad-2b07-4d85-a9e9-dda273915f00 - ERROR - Error in create_scd_tables: ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'TerritoryID_nk'. (207) (SQLExecDirectW)")
+2024-12-14 19:42:11 - 64c170ad-2b07-4d85-a9e9-dda273915f00 - INFO - Database connection closed.
+2024-12-14 19:42:11 - 64c170ad-2b07-4d85-a9e9-dda273915f00 - ERROR - Task 3 Failed: ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'TerritoryID_nk'. (207) (SQLExecDirectW)")
+2024-12-14 19:42:11 - 64c170ad-2b07-4d85-a9e9-dda273915f00 - ERROR - Dimensional data pipeline failed: Task 3 Failed: ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'TerritoryID_nk'. (207) (SQLExecDirectW)")
+2024-12-14 19:45:33 - c0a8936c-40e1-41f6-ab1f-10c4acfe9443 - INFO - Initialized DimensionalDataFlow with Execution ID: c0a8936c-40e1-41f6-ab1f-10c4acfe9443
+2024-12-14 19:45:33 - c0a8936c-40e1-41f6-ab1f-10c4acfe9443 - INFO - Starting Dimensional Data Flow execution.
+2024-12-14 19:45:33 - c0a8936c-40e1-41f6-ab1f-10c4acfe9443 - INFO - Executing Task 1: Create Staging Tables.
+2024-12-14 19:45:33 - c0a8936c-40e1-41f6-ab1f-10c4acfe9443 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 19:45:33 - c0a8936c-40e1-41f6-ab1f-10c4acfe9443 - INFO - Database connection established for table creation.
+2024-12-14 19:45:33 - c0a8936c-40e1-41f6-ab1f-10c4acfe9443 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/staging_raw_table_creation.sql
+2024-12-14 19:45:33 - c0a8936c-40e1-41f6-ab1f-10c4acfe9443 - INFO - Table 'staging' created successfully.
+2024-12-14 19:45:33 - c0a8936c-40e1-41f6-ab1f-10c4acfe9443 - INFO - All tables created successfully.
+2024-12-14 19:45:33 - c0a8936c-40e1-41f6-ab1f-10c4acfe9443 - INFO - Database connection closed.
+2024-12-14 19:45:33 - c0a8936c-40e1-41f6-ab1f-10c4acfe9443 - INFO - Executing Task 2: Create Dim Tables and SORs.
+2024-12-14 19:45:33 - c0a8936c-40e1-41f6-ab1f-10c4acfe9443 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 19:45:33 - c0a8936c-40e1-41f6-ab1f-10c4acfe9443 - INFO - Database connection established for table creation.
+2024-12-14 19:45:33 - c0a8936c-40e1-41f6-ab1f-10c4acfe9443 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/dimensional_db_table_creation.sql
+2024-12-14 19:45:33 - c0a8936c-40e1-41f6-ab1f-10c4acfe9443 - INFO - Table 'dim, sor' created successfully.
+2024-12-14 19:45:33 - c0a8936c-40e1-41f6-ab1f-10c4acfe9443 - INFO - All dim, sor tables created successfully.
+2024-12-14 19:45:33 - c0a8936c-40e1-41f6-ab1f-10c4acfe9443 - INFO - Database connection closed.
+2024-12-14 19:45:33 - c0a8936c-40e1-41f6-ab1f-10c4acfe9443 - INFO - Executing Task 3: Create SCD Tables.
+2024-12-14 19:45:33 - c0a8936c-40e1-41f6-ab1f-10c4acfe9443 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 19:45:33 - c0a8936c-40e1-41f6-ab1f-10c4acfe9443 - INFO - Database connection established for table creation.
+2024-12-14 19:45:33 - c0a8936c-40e1-41f6-ab1f-10c4acfe9443 - ERROR - Failed to execute SQL script '/Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/scd_creation.sql': ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'TerritoryID_nk'. (207) (SQLExecDirectW)")
+2024-12-14 19:45:33 - c0a8936c-40e1-41f6-ab1f-10c4acfe9443 - ERROR - Failed to create table 'scd': ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'TerritoryID_nk'. (207) (SQLExecDirectW)")
+2024-12-14 19:45:33 - c0a8936c-40e1-41f6-ab1f-10c4acfe9443 - ERROR - Transaction rolled back due to an error in table creation.
+2024-12-14 19:45:33 - c0a8936c-40e1-41f6-ab1f-10c4acfe9443 - ERROR - Error in create_scd_tables: ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'TerritoryID_nk'. (207) (SQLExecDirectW)")
+2024-12-14 19:45:33 - c0a8936c-40e1-41f6-ab1f-10c4acfe9443 - INFO - Database connection closed.
+2024-12-14 19:45:33 - c0a8936c-40e1-41f6-ab1f-10c4acfe9443 - ERROR - Task 3 Failed: ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'TerritoryID_nk'. (207) (SQLExecDirectW)")
+2024-12-14 19:45:33 - c0a8936c-40e1-41f6-ab1f-10c4acfe9443 - ERROR - Dimensional data pipeline failed: Task 3 Failed: ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'TerritoryID_nk'. (207) (SQLExecDirectW)")
+2024-12-14 19:50:04 - a32099ef-4250-43f8-987c-c46917858fb6 - INFO - Initialized DimensionalDataFlow with Execution ID: a32099ef-4250-43f8-987c-c46917858fb6
+2024-12-14 19:50:04 - a32099ef-4250-43f8-987c-c46917858fb6 - INFO - Starting Dimensional Data Flow execution.
+2024-12-14 19:50:04 - a32099ef-4250-43f8-987c-c46917858fb6 - INFO - Executing Task 1: Create Staging Tables.
+2024-12-14 19:50:04 - a32099ef-4250-43f8-987c-c46917858fb6 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 19:50:04 - a32099ef-4250-43f8-987c-c46917858fb6 - INFO - Database connection established for table creation.
+2024-12-14 19:50:04 - a32099ef-4250-43f8-987c-c46917858fb6 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/staging_raw_table_creation.sql
+2024-12-14 19:50:04 - a32099ef-4250-43f8-987c-c46917858fb6 - INFO - Table 'staging' created successfully.
+2024-12-14 19:50:04 - a32099ef-4250-43f8-987c-c46917858fb6 - INFO - All tables created successfully.
+2024-12-14 19:50:04 - a32099ef-4250-43f8-987c-c46917858fb6 - INFO - Database connection closed.
+2024-12-14 19:50:04 - a32099ef-4250-43f8-987c-c46917858fb6 - INFO - Executing Task 2: Create Dim Tables and SORs.
+2024-12-14 19:50:04 - a32099ef-4250-43f8-987c-c46917858fb6 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 19:50:04 - a32099ef-4250-43f8-987c-c46917858fb6 - INFO - Database connection established for table creation.
+2024-12-14 19:50:04 - a32099ef-4250-43f8-987c-c46917858fb6 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/dimensional_db_table_creation.sql
+2024-12-14 19:50:04 - a32099ef-4250-43f8-987c-c46917858fb6 - INFO - Table 'dim, sor' created successfully.
+2024-12-14 19:50:04 - a32099ef-4250-43f8-987c-c46917858fb6 - INFO - All dim, sor tables created successfully.
+2024-12-14 19:50:04 - a32099ef-4250-43f8-987c-c46917858fb6 - INFO - Database connection closed.
+2024-12-14 19:50:04 - a32099ef-4250-43f8-987c-c46917858fb6 - INFO - Executing Task 3: Create SCD Tables.
+2024-12-14 19:50:04 - a32099ef-4250-43f8-987c-c46917858fb6 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 19:50:04 - a32099ef-4250-43f8-987c-c46917858fb6 - INFO - Database connection established for table creation.
+2024-12-14 19:50:04 - a32099ef-4250-43f8-987c-c46917858fb6 - ERROR - Failed to execute SQL script '/Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/scd_creation.sql': ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'TerritoryID_nk'. (207) (SQLExecDirectW)")
+2024-12-14 19:50:04 - a32099ef-4250-43f8-987c-c46917858fb6 - ERROR - Failed to create table 'scd': ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'TerritoryID_nk'. (207) (SQLExecDirectW)")
+2024-12-14 19:50:04 - a32099ef-4250-43f8-987c-c46917858fb6 - ERROR - Transaction rolled back due to an error in table creation.
+2024-12-14 19:50:04 - a32099ef-4250-43f8-987c-c46917858fb6 - ERROR - Error in create_scd_tables: ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'TerritoryID_nk'. (207) (SQLExecDirectW)")
+2024-12-14 19:50:04 - a32099ef-4250-43f8-987c-c46917858fb6 - INFO - Database connection closed.
+2024-12-14 19:50:04 - a32099ef-4250-43f8-987c-c46917858fb6 - ERROR - Task 3 Failed: ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'TerritoryID_nk'. (207) (SQLExecDirectW)")
+2024-12-14 19:50:04 - a32099ef-4250-43f8-987c-c46917858fb6 - ERROR - Dimensional data pipeline failed: Task 3 Failed: ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'TerritoryID_nk'. (207) (SQLExecDirectW)")
+2024-12-14 20:00:10 - bb806224-ba3a-46a3-a02c-2f85cb62ad12 - INFO - Initialized DimensionalDataFlow with Execution ID: bb806224-ba3a-46a3-a02c-2f85cb62ad12
+2024-12-14 20:00:10 - bb806224-ba3a-46a3-a02c-2f85cb62ad12 - INFO - Starting Dimensional Data Flow execution.
+2024-12-14 20:00:10 - bb806224-ba3a-46a3-a02c-2f85cb62ad12 - INFO - Executing Task 1: Create Staging Tables.
+2024-12-14 20:00:10 - bb806224-ba3a-46a3-a02c-2f85cb62ad12 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 20:00:10 - bb806224-ba3a-46a3-a02c-2f85cb62ad12 - INFO - Database connection established for table creation.
+2024-12-14 20:00:10 - bb806224-ba3a-46a3-a02c-2f85cb62ad12 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/staging_raw_table_creation.sql
+2024-12-14 20:00:10 - bb806224-ba3a-46a3-a02c-2f85cb62ad12 - INFO - Table 'staging' created successfully.
+2024-12-14 20:00:10 - bb806224-ba3a-46a3-a02c-2f85cb62ad12 - INFO - All tables created successfully.
+2024-12-14 20:00:10 - bb806224-ba3a-46a3-a02c-2f85cb62ad12 - INFO - Database connection closed.
+2024-12-14 20:00:10 - bb806224-ba3a-46a3-a02c-2f85cb62ad12 - INFO - Executing Task 2: Create Dim Tables and SORs.
+2024-12-14 20:00:10 - bb806224-ba3a-46a3-a02c-2f85cb62ad12 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 20:00:10 - bb806224-ba3a-46a3-a02c-2f85cb62ad12 - INFO - Database connection established for table creation.
+2024-12-14 20:00:11 - bb806224-ba3a-46a3-a02c-2f85cb62ad12 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/dimensional_db_table_creation.sql
+2024-12-14 20:00:11 - bb806224-ba3a-46a3-a02c-2f85cb62ad12 - INFO - Table 'dim, sor' created successfully.
+2024-12-14 20:00:11 - bb806224-ba3a-46a3-a02c-2f85cb62ad12 - INFO - All dim, sor tables created successfully.
+2024-12-14 20:00:11 - bb806224-ba3a-46a3-a02c-2f85cb62ad12 - INFO - Database connection closed.
+2024-12-14 20:00:11 - bb806224-ba3a-46a3-a02c-2f85cb62ad12 - INFO - Executing Task 3: Create SCD Tables.
+2024-12-14 20:00:11 - bb806224-ba3a-46a3-a02c-2f85cb62ad12 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 20:00:11 - bb806224-ba3a-46a3-a02c-2f85cb62ad12 - INFO - Database connection established for table creation.
+2024-12-14 20:00:11 - bb806224-ba3a-46a3-a02c-2f85cb62ad12 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/scd_creation.sql
+2024-12-14 20:00:11 - bb806224-ba3a-46a3-a02c-2f85cb62ad12 - INFO - Table 'scd' created successfully.
+2024-12-14 20:00:11 - bb806224-ba3a-46a3-a02c-2f85cb62ad12 - INFO - All SCD tables created successfully.
+2024-12-14 20:00:11 - bb806224-ba3a-46a3-a02c-2f85cb62ad12 - INFO - Database connection closed.
+2024-12-14 20:00:11 - bb806224-ba3a-46a3-a02c-2f85cb62ad12 - INFO - Dimensional Data Flow executed successfully.
+2024-12-14 20:00:11 - bb806224-ba3a-46a3-a02c-2f85cb62ad12 - INFO - Dimensional data pipeline executed successfully.
+2024-12-14 21:12:25 - 13ce77bc-569f-4d7a-a8b5-3902324226b3 - INFO - Initialized DimensionalDataFlow with Execution ID: 13ce77bc-569f-4d7a-a8b5-3902324226b3
+2024-12-14 21:12:25 - 13ce77bc-569f-4d7a-a8b5-3902324226b3 - INFO - Starting Dimensional Data Flow execution.
+2024-12-14 21:12:25 - 13ce77bc-569f-4d7a-a8b5-3902324226b3 - INFO - Executing Task 1: Create Staging Tables.
+2024-12-14 21:12:25 - 13ce77bc-569f-4d7a-a8b5-3902324226b3 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 21:12:25 - 13ce77bc-569f-4d7a-a8b5-3902324226b3 - INFO - Database connection established for table creation.
+2024-12-14 21:12:25 - 13ce77bc-569f-4d7a-a8b5-3902324226b3 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/staging_raw_table_creation.sql
+2024-12-14 21:12:25 - 13ce77bc-569f-4d7a-a8b5-3902324226b3 - INFO - Table 'staging' created successfully.
+2024-12-14 21:12:25 - 13ce77bc-569f-4d7a-a8b5-3902324226b3 - INFO - All tables created successfully.
+2024-12-14 21:12:25 - 13ce77bc-569f-4d7a-a8b5-3902324226b3 - INFO - Database connection closed.
+2024-12-14 21:12:25 - 13ce77bc-569f-4d7a-a8b5-3902324226b3 - INFO - Executing Task 2: Create Dim Tables and SORs.
+2024-12-14 21:12:25 - 13ce77bc-569f-4d7a-a8b5-3902324226b3 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 21:12:25 - 13ce77bc-569f-4d7a-a8b5-3902324226b3 - INFO - Database connection established for table creation.
+2024-12-14 21:12:25 - 13ce77bc-569f-4d7a-a8b5-3902324226b3 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/dimensional_db_table_creation.sql
+2024-12-14 21:12:25 - 13ce77bc-569f-4d7a-a8b5-3902324226b3 - INFO - Table 'dim, sor' created successfully.
+2024-12-14 21:12:25 - 13ce77bc-569f-4d7a-a8b5-3902324226b3 - INFO - All dim, sor tables created successfully.
+2024-12-14 21:12:25 - 13ce77bc-569f-4d7a-a8b5-3902324226b3 - INFO - Database connection closed.
+2024-12-14 21:12:25 - 13ce77bc-569f-4d7a-a8b5-3902324226b3 - INFO - Executing Task 3: Create SCD Tables.
+2024-12-14 21:12:25 - 13ce77bc-569f-4d7a-a8b5-3902324226b3 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 21:12:25 - 13ce77bc-569f-4d7a-a8b5-3902324226b3 - INFO - Database connection established for table creation.
+2024-12-14 21:12:25 - 13ce77bc-569f-4d7a-a8b5-3902324226b3 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/scd_creation.sql
+2024-12-14 21:12:25 - 13ce77bc-569f-4d7a-a8b5-3902324226b3 - INFO - Table 'scd' created successfully.
+2024-12-14 21:12:25 - 13ce77bc-569f-4d7a-a8b5-3902324226b3 - INFO - All SCD tables created successfully.
+2024-12-14 21:12:25 - 13ce77bc-569f-4d7a-a8b5-3902324226b3 - INFO - Database connection closed.
+2024-12-14 21:12:25 - 13ce77bc-569f-4d7a-a8b5-3902324226b3 - INFO - Dimensional Data Flow executed successfully.
+2024-12-14 21:12:25 - 13ce77bc-569f-4d7a-a8b5-3902324226b3 - INFO - Dimensional data pipeline executed successfully.
+2024-12-14 21:12:55 - bf9bb2cb-ec1d-4540-a75e-e18be6ff3f05 - INFO - Initialized DimensionalDataFlow with Execution ID: bf9bb2cb-ec1d-4540-a75e-e18be6ff3f05
+2024-12-14 21:12:55 - bf9bb2cb-ec1d-4540-a75e-e18be6ff3f05 - INFO - Starting Dimensional Data Flow execution.
+2024-12-14 21:12:55 - bf9bb2cb-ec1d-4540-a75e-e18be6ff3f05 - INFO - Executing Task 1: Create Staging Tables.
+2024-12-14 21:12:55 - bf9bb2cb-ec1d-4540-a75e-e18be6ff3f05 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 21:12:55 - bf9bb2cb-ec1d-4540-a75e-e18be6ff3f05 - INFO - Database connection established for table creation.
+2024-12-14 21:12:55 - bf9bb2cb-ec1d-4540-a75e-e18be6ff3f05 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/staging_raw_table_creation.sql
+2024-12-14 21:12:55 - bf9bb2cb-ec1d-4540-a75e-e18be6ff3f05 - INFO - Table 'staging' created successfully.
+2024-12-14 21:12:55 - bf9bb2cb-ec1d-4540-a75e-e18be6ff3f05 - INFO - All tables created successfully.
+2024-12-14 21:12:55 - bf9bb2cb-ec1d-4540-a75e-e18be6ff3f05 - INFO - Database connection closed.
+2024-12-14 21:12:55 - bf9bb2cb-ec1d-4540-a75e-e18be6ff3f05 - INFO - Executing Task 2: Create Dim Tables and SORs.
+2024-12-14 21:12:55 - bf9bb2cb-ec1d-4540-a75e-e18be6ff3f05 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 21:12:55 - bf9bb2cb-ec1d-4540-a75e-e18be6ff3f05 - INFO - Database connection established for table creation.
+2024-12-14 21:12:55 - bf9bb2cb-ec1d-4540-a75e-e18be6ff3f05 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/dimensional_db_table_creation.sql
+2024-12-14 21:12:55 - bf9bb2cb-ec1d-4540-a75e-e18be6ff3f05 - INFO - Table 'dim, sor' created successfully.
+2024-12-14 21:12:55 - bf9bb2cb-ec1d-4540-a75e-e18be6ff3f05 - INFO - All dim, sor tables created successfully.
+2024-12-14 21:12:55 - bf9bb2cb-ec1d-4540-a75e-e18be6ff3f05 - INFO - Database connection closed.
+2024-12-14 21:12:55 - bf9bb2cb-ec1d-4540-a75e-e18be6ff3f05 - INFO - Executing Task 3: Create SCD Tables.
+2024-12-14 21:12:55 - bf9bb2cb-ec1d-4540-a75e-e18be6ff3f05 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 21:12:55 - bf9bb2cb-ec1d-4540-a75e-e18be6ff3f05 - INFO - Database connection established for table creation.
+2024-12-14 21:12:55 - bf9bb2cb-ec1d-4540-a75e-e18be6ff3f05 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/scd_creation.sql
+2024-12-14 21:12:55 - bf9bb2cb-ec1d-4540-a75e-e18be6ff3f05 - INFO - Table 'scd' created successfully.
+2024-12-14 21:12:55 - bf9bb2cb-ec1d-4540-a75e-e18be6ff3f05 - INFO - All SCD tables created successfully.
+2024-12-14 21:12:55 - bf9bb2cb-ec1d-4540-a75e-e18be6ff3f05 - INFO - Database connection closed.
+2024-12-14 21:12:55 - bf9bb2cb-ec1d-4540-a75e-e18be6ff3f05 - INFO - Dimensional Data Flow executed successfully.
+2024-12-14 21:12:55 - bf9bb2cb-ec1d-4540-a75e-e18be6ff3f05 - INFO - Dimensional data pipeline executed successfully.
+2024-12-14 21:21:24 - 4db3a25b-c22a-4734-bdbc-eafa07279251 - INFO - Initialized DimensionalDataFlow with Execution ID: 4db3a25b-c22a-4734-bdbc-eafa07279251
+2024-12-14 21:21:24 - 4db3a25b-c22a-4734-bdbc-eafa07279251 - INFO - Starting Dimensional Data Flow execution.
+2024-12-14 21:21:24 - 4db3a25b-c22a-4734-bdbc-eafa07279251 - INFO - Executing Task 1: Create Staging Tables.
+2024-12-14 21:21:24 - 4db3a25b-c22a-4734-bdbc-eafa07279251 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 21:21:24 - 4db3a25b-c22a-4734-bdbc-eafa07279251 - INFO - Database connection established for table creation.
+2024-12-14 21:21:24 - 4db3a25b-c22a-4734-bdbc-eafa07279251 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/staging_raw_table_creation.sql
+2024-12-14 21:21:24 - 4db3a25b-c22a-4734-bdbc-eafa07279251 - INFO - Table 'staging' created successfully.
+2024-12-14 21:21:24 - 4db3a25b-c22a-4734-bdbc-eafa07279251 - INFO - All tables created successfully.
+2024-12-14 21:21:24 - 4db3a25b-c22a-4734-bdbc-eafa07279251 - INFO - Database connection closed.
+2024-12-14 21:21:24 - 4db3a25b-c22a-4734-bdbc-eafa07279251 - INFO - Executing Task 2: Create Dim Tables and SORs.
+2024-12-14 21:21:24 - 4db3a25b-c22a-4734-bdbc-eafa07279251 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 21:21:24 - 4db3a25b-c22a-4734-bdbc-eafa07279251 - INFO - Database connection established for table creation.
+2024-12-14 21:21:24 - 4db3a25b-c22a-4734-bdbc-eafa07279251 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/dimensional_db_table_creation.sql
+2024-12-14 21:21:24 - 4db3a25b-c22a-4734-bdbc-eafa07279251 - INFO - Table 'dim, sor' created successfully.
+2024-12-14 21:21:24 - 4db3a25b-c22a-4734-bdbc-eafa07279251 - INFO - All dim, sor tables created successfully.
+2024-12-14 21:21:24 - 4db3a25b-c22a-4734-bdbc-eafa07279251 - INFO - Database connection closed.
+2024-12-14 21:21:24 - 4db3a25b-c22a-4734-bdbc-eafa07279251 - INFO - Executing Task 3: Create SCD Tables.
+2024-12-14 21:21:24 - 4db3a25b-c22a-4734-bdbc-eafa07279251 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 21:21:24 - 4db3a25b-c22a-4734-bdbc-eafa07279251 - INFO - Database connection established for table creation.
+2024-12-14 21:21:24 - 4db3a25b-c22a-4734-bdbc-eafa07279251 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/scd_creation.sql
+2024-12-14 21:21:24 - 4db3a25b-c22a-4734-bdbc-eafa07279251 - INFO - Table 'scd' created successfully.
+2024-12-14 21:21:24 - 4db3a25b-c22a-4734-bdbc-eafa07279251 - INFO - All SCD tables created successfully.
+2024-12-14 21:21:24 - 4db3a25b-c22a-4734-bdbc-eafa07279251 - INFO - Database connection closed.
+2024-12-14 21:21:24 - 4db3a25b-c22a-4734-bdbc-eafa07279251 - INFO - Dimensional Data Flow executed successfully.
+2024-12-14 21:21:24 - 4db3a25b-c22a-4734-bdbc-eafa07279251 - INFO - Dimensional data pipeline executed successfully.
+2024-12-14 21:49:12 - 33749cef-176f-4aea-af91-ebcf5951a561 - INFO - Initialized DimensionalDataFlow with Execution ID: 33749cef-176f-4aea-af91-ebcf5951a561
+2024-12-14 21:49:12 - 33749cef-176f-4aea-af91-ebcf5951a561 - INFO - Starting Dimensional Data Flow execution.
+2024-12-14 21:49:12 - 33749cef-176f-4aea-af91-ebcf5951a561 - INFO - Executing Task 1: Create Staging Tables.
+2024-12-14 21:49:12 - 33749cef-176f-4aea-af91-ebcf5951a561 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 21:49:12 - 33749cef-176f-4aea-af91-ebcf5951a561 - INFO - Database connection established for table creation.
+2024-12-14 21:49:12 - 33749cef-176f-4aea-af91-ebcf5951a561 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/staging_raw_table_creation.sql
+2024-12-14 21:49:12 - 33749cef-176f-4aea-af91-ebcf5951a561 - INFO - Table 'staging' created successfully.
+2024-12-14 21:49:12 - 33749cef-176f-4aea-af91-ebcf5951a561 - INFO - All tables created successfully.
+2024-12-14 21:49:12 - 33749cef-176f-4aea-af91-ebcf5951a561 - INFO - Database connection closed.
+2024-12-14 21:49:12 - 33749cef-176f-4aea-af91-ebcf5951a561 - INFO - Executing Task 2: Create Dim Tables and SORs.
+2024-12-14 21:49:12 - 33749cef-176f-4aea-af91-ebcf5951a561 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 21:49:12 - 33749cef-176f-4aea-af91-ebcf5951a561 - INFO - Database connection established for table creation.
+2024-12-14 21:49:12 - 33749cef-176f-4aea-af91-ebcf5951a561 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/dimensional_db_table_creation.sql
+2024-12-14 21:49:12 - 33749cef-176f-4aea-af91-ebcf5951a561 - INFO - Table 'dim, sor' created successfully.
+2024-12-14 21:49:12 - 33749cef-176f-4aea-af91-ebcf5951a561 - INFO - All dim, sor tables created successfully.
+2024-12-14 21:49:12 - 33749cef-176f-4aea-af91-ebcf5951a561 - INFO - Database connection closed.
+2024-12-14 21:49:12 - 33749cef-176f-4aea-af91-ebcf5951a561 - INFO - Executing Task 3: Create SCD Tables.
+2024-12-14 21:49:12 - 33749cef-176f-4aea-af91-ebcf5951a561 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 21:49:12 - 33749cef-176f-4aea-af91-ebcf5951a561 - INFO - Database connection established for table creation.
+2024-12-14 21:49:12 - 33749cef-176f-4aea-af91-ebcf5951a561 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/scd_creation.sql
+2024-12-14 21:49:12 - 33749cef-176f-4aea-af91-ebcf5951a561 - INFO - Table 'scd' created successfully.
+2024-12-14 21:49:12 - 33749cef-176f-4aea-af91-ebcf5951a561 - INFO - All SCD tables created successfully.
+2024-12-14 21:49:12 - 33749cef-176f-4aea-af91-ebcf5951a561 - INFO - Database connection closed.
+2024-12-14 21:49:12 - 33749cef-176f-4aea-af91-ebcf5951a561 - INFO - Dimensional Data Flow executed successfully.
+2024-12-14 21:49:12 - 33749cef-176f-4aea-af91-ebcf5951a561 - INFO - Dimensional data pipeline executed successfully.
+2024-12-14 21:53:37 - 843b2265-d050-439a-b381-bd524f152266 - INFO - Initialized DimensionalDataFlow with Execution ID: 843b2265-d050-439a-b381-bd524f152266
+2024-12-14 21:53:37 - 843b2265-d050-439a-b381-bd524f152266 - INFO - Starting Dimensional Data Flow execution.
+2024-12-14 21:53:37 - 843b2265-d050-439a-b381-bd524f152266 - INFO - Executing Task 1: Create Staging Tables.
+2024-12-14 21:53:37 - 843b2265-d050-439a-b381-bd524f152266 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 21:53:37 - 843b2265-d050-439a-b381-bd524f152266 - INFO - Database connection established for table creation.
+2024-12-14 21:53:37 - 843b2265-d050-439a-b381-bd524f152266 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/staging_raw_table_creation.sql
+2024-12-14 21:53:37 - 843b2265-d050-439a-b381-bd524f152266 - INFO - Table 'staging' created successfully.
+2024-12-14 21:53:37 - 843b2265-d050-439a-b381-bd524f152266 - INFO - All tables created successfully.
+2024-12-14 21:53:37 - 843b2265-d050-439a-b381-bd524f152266 - INFO - Database connection closed.
+2024-12-14 21:53:37 - 843b2265-d050-439a-b381-bd524f152266 - INFO - Executing Task 2: Create Dim Tables and SORs.
+2024-12-14 21:53:37 - 843b2265-d050-439a-b381-bd524f152266 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 21:53:37 - 843b2265-d050-439a-b381-bd524f152266 - INFO - Database connection established for table creation.
+2024-12-14 21:53:37 - 843b2265-d050-439a-b381-bd524f152266 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/dimensional_db_table_creation.sql
+2024-12-14 21:53:37 - 843b2265-d050-439a-b381-bd524f152266 - INFO - Table 'dim, sor' created successfully.
+2024-12-14 21:53:37 - 843b2265-d050-439a-b381-bd524f152266 - INFO - All dim, sor tables created successfully.
+2024-12-14 21:53:37 - 843b2265-d050-439a-b381-bd524f152266 - INFO - Database connection closed.
+2024-12-14 21:53:37 - 843b2265-d050-439a-b381-bd524f152266 - INFO - Executing Task 3: Create SCD Tables.
+2024-12-14 21:53:37 - 843b2265-d050-439a-b381-bd524f152266 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 21:53:37 - 843b2265-d050-439a-b381-bd524f152266 - INFO - Database connection established for table creation.
+2024-12-14 21:53:38 - 843b2265-d050-439a-b381-bd524f152266 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/scd_creation.sql
+2024-12-14 21:53:38 - 843b2265-d050-439a-b381-bd524f152266 - INFO - Table 'scd' created successfully.
+2024-12-14 21:53:38 - 843b2265-d050-439a-b381-bd524f152266 - INFO - All SCD tables created successfully.
+2024-12-14 21:53:38 - 843b2265-d050-439a-b381-bd524f152266 - INFO - Database connection closed.
+2024-12-14 21:53:38 - 843b2265-d050-439a-b381-bd524f152266 - INFO - Dimensional Data Flow executed successfully.
+2024-12-14 21:53:38 - 843b2265-d050-439a-b381-bd524f152266 - INFO - Dimensional data pipeline executed successfully.
+2024-12-14 21:55:13 - 852b3a16-4973-4e3c-91a5-e920b03fcdf4 - INFO - Initialized DimensionalDataFlow with Execution ID: 852b3a16-4973-4e3c-91a5-e920b03fcdf4
+2024-12-14 21:55:13 - 852b3a16-4973-4e3c-91a5-e920b03fcdf4 - INFO - Starting Dimensional Data Flow execution.
+2024-12-14 21:55:13 - 852b3a16-4973-4e3c-91a5-e920b03fcdf4 - INFO - Executing Task 1: Create Staging Tables.
+2024-12-14 21:55:13 - 852b3a16-4973-4e3c-91a5-e920b03fcdf4 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 21:55:13 - 852b3a16-4973-4e3c-91a5-e920b03fcdf4 - INFO - Database connection established for table creation.
+2024-12-14 21:55:13 - 852b3a16-4973-4e3c-91a5-e920b03fcdf4 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/staging_raw_table_creation.sql
+2024-12-14 21:55:13 - 852b3a16-4973-4e3c-91a5-e920b03fcdf4 - INFO - Table 'staging' created successfully.
+2024-12-14 21:55:13 - 852b3a16-4973-4e3c-91a5-e920b03fcdf4 - INFO - All tables created successfully.
+2024-12-14 21:55:13 - 852b3a16-4973-4e3c-91a5-e920b03fcdf4 - INFO - Database connection closed.
+2024-12-14 21:55:13 - 852b3a16-4973-4e3c-91a5-e920b03fcdf4 - INFO - Executing Task 2: Create Dim Tables and SORs.
+2024-12-14 21:55:13 - 852b3a16-4973-4e3c-91a5-e920b03fcdf4 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 21:55:13 - 852b3a16-4973-4e3c-91a5-e920b03fcdf4 - INFO - Database connection established for table creation.
+2024-12-14 21:55:13 - 852b3a16-4973-4e3c-91a5-e920b03fcdf4 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/dimensional_db_table_creation.sql
+2024-12-14 21:55:13 - 852b3a16-4973-4e3c-91a5-e920b03fcdf4 - INFO - Table 'dim, sor' created successfully.
+2024-12-14 21:55:13 - 852b3a16-4973-4e3c-91a5-e920b03fcdf4 - INFO - All dim, sor tables created successfully.
+2024-12-14 21:55:13 - 852b3a16-4973-4e3c-91a5-e920b03fcdf4 - INFO - Database connection closed.
+2024-12-14 21:55:13 - 852b3a16-4973-4e3c-91a5-e920b03fcdf4 - INFO - Executing Task 3: Create SCD Tables.
+2024-12-14 21:55:13 - 852b3a16-4973-4e3c-91a5-e920b03fcdf4 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 21:55:13 - 852b3a16-4973-4e3c-91a5-e920b03fcdf4 - INFO - Database connection established for table creation.
+2024-12-14 21:55:14 - 852b3a16-4973-4e3c-91a5-e920b03fcdf4 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/scd_creation.sql
+2024-12-14 21:55:14 - 852b3a16-4973-4e3c-91a5-e920b03fcdf4 - INFO - Table 'scd' created successfully.
+2024-12-14 21:55:14 - 852b3a16-4973-4e3c-91a5-e920b03fcdf4 - ERROR - Failed to execute SQL script '/Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/populate_sor.sql': ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'StagingTableName'. (207) (SQLExecDirectW)")
+2024-12-14 21:55:14 - 852b3a16-4973-4e3c-91a5-e920b03fcdf4 - ERROR - Failed to create table 'scd': ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'StagingTableName'. (207) (SQLExecDirectW)")
+2024-12-14 21:55:14 - 852b3a16-4973-4e3c-91a5-e920b03fcdf4 - INFO - All SCD tables created successfully.
+2024-12-14 21:55:14 - 852b3a16-4973-4e3c-91a5-e920b03fcdf4 - INFO - Database connection closed.
+2024-12-14 21:55:14 - 852b3a16-4973-4e3c-91a5-e920b03fcdf4 - INFO - Dimensional Data Flow executed successfully.
+2024-12-14 21:55:14 - 852b3a16-4973-4e3c-91a5-e920b03fcdf4 - INFO - Dimensional data pipeline executed successfully.
+2024-12-14 21:57:13 - 85636793-2edb-4593-9da6-d1e88ee52f9b - INFO - Initialized DimensionalDataFlow with Execution ID: 85636793-2edb-4593-9da6-d1e88ee52f9b
+2024-12-14 21:57:13 - 85636793-2edb-4593-9da6-d1e88ee52f9b - INFO - Starting Dimensional Data Flow execution.
+2024-12-14 21:57:13 - 85636793-2edb-4593-9da6-d1e88ee52f9b - INFO - Executing Task 1: Create Staging Tables.
+2024-12-14 21:57:13 - 85636793-2edb-4593-9da6-d1e88ee52f9b - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 21:57:13 - 85636793-2edb-4593-9da6-d1e88ee52f9b - INFO - Database connection established for table creation.
+2024-12-14 21:57:13 - 85636793-2edb-4593-9da6-d1e88ee52f9b - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/staging_raw_table_creation.sql
+2024-12-14 21:57:13 - 85636793-2edb-4593-9da6-d1e88ee52f9b - INFO - Table 'staging' created successfully.
+2024-12-14 21:57:13 - 85636793-2edb-4593-9da6-d1e88ee52f9b - INFO - All tables created successfully.
+2024-12-14 21:57:13 - 85636793-2edb-4593-9da6-d1e88ee52f9b - INFO - Database connection closed.
+2024-12-14 21:57:13 - 85636793-2edb-4593-9da6-d1e88ee52f9b - INFO - Executing Task 2: Create Dim Tables and SORs.
+2024-12-14 21:57:13 - 85636793-2edb-4593-9da6-d1e88ee52f9b - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 21:57:13 - 85636793-2edb-4593-9da6-d1e88ee52f9b - INFO - Database connection established for table creation.
+2024-12-14 21:57:13 - 85636793-2edb-4593-9da6-d1e88ee52f9b - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/dimensional_db_table_creation.sql
+2024-12-14 21:57:13 - 85636793-2edb-4593-9da6-d1e88ee52f9b - INFO - Table 'dim, sor' created successfully.
+2024-12-14 21:57:13 - 85636793-2edb-4593-9da6-d1e88ee52f9b - INFO - All dim, sor tables created successfully.
+2024-12-14 21:57:13 - 85636793-2edb-4593-9da6-d1e88ee52f9b - INFO - Database connection closed.
+2024-12-14 21:57:13 - 85636793-2edb-4593-9da6-d1e88ee52f9b - INFO - Executing Task 3: Create SCD Tables.
+2024-12-14 21:57:13 - 85636793-2edb-4593-9da6-d1e88ee52f9b - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 21:57:13 - 85636793-2edb-4593-9da6-d1e88ee52f9b - INFO - Database connection established for table creation.
+2024-12-14 21:57:13 - 85636793-2edb-4593-9da6-d1e88ee52f9b - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/scd_creation.sql
+2024-12-14 21:57:13 - 85636793-2edb-4593-9da6-d1e88ee52f9b - INFO - Table 'scd' created successfully.
+2024-12-14 21:57:13 - 85636793-2edb-4593-9da6-d1e88ee52f9b - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/populate_sor.sql
+2024-12-14 21:57:13 - 85636793-2edb-4593-9da6-d1e88ee52f9b - INFO - Table 'scd' created successfully.
+2024-12-14 21:57:13 - 85636793-2edb-4593-9da6-d1e88ee52f9b - INFO - All SCD tables created successfully.
+2024-12-14 21:57:13 - 85636793-2edb-4593-9da6-d1e88ee52f9b - INFO - Database connection closed.
+2024-12-14 21:57:13 - 85636793-2edb-4593-9da6-d1e88ee52f9b - INFO - Dimensional Data Flow executed successfully.
+2024-12-14 21:57:13 - 85636793-2edb-4593-9da6-d1e88ee52f9b - INFO - Dimensional data pipeline executed successfully.
+2024-12-14 22:25:18 - 5372596b-d987-4219-bfcd-ac1b67ca96d5 - INFO - Initialized DimensionalDataFlow with Execution ID: 5372596b-d987-4219-bfcd-ac1b67ca96d5
+2024-12-14 22:25:18 - 5372596b-d987-4219-bfcd-ac1b67ca96d5 - INFO - Starting Dimensional Data Flow execution.
+2024-12-14 22:25:18 - 5372596b-d987-4219-bfcd-ac1b67ca96d5 - INFO - Executing Task 1: Create Staging Tables.
+2024-12-14 22:25:18 - 5372596b-d987-4219-bfcd-ac1b67ca96d5 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 22:25:18 - 5372596b-d987-4219-bfcd-ac1b67ca96d5 - INFO - Database connection established for table creation.
+2024-12-14 22:25:18 - 5372596b-d987-4219-bfcd-ac1b67ca96d5 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/staging_raw_table_creation.sql
+2024-12-14 22:25:18 - 5372596b-d987-4219-bfcd-ac1b67ca96d5 - INFO - Table 'staging' created successfully.
+2024-12-14 22:25:18 - 5372596b-d987-4219-bfcd-ac1b67ca96d5 - INFO - All tables created successfully.
+2024-12-14 22:25:18 - 5372596b-d987-4219-bfcd-ac1b67ca96d5 - INFO - Database connection closed.
+2024-12-14 22:25:18 - 5372596b-d987-4219-bfcd-ac1b67ca96d5 - INFO - Executing Task 2: Create Dim Tables and SORs.
+2024-12-14 22:25:18 - 5372596b-d987-4219-bfcd-ac1b67ca96d5 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 22:25:18 - 5372596b-d987-4219-bfcd-ac1b67ca96d5 - INFO - Database connection established for table creation.
+2024-12-14 22:25:18 - 5372596b-d987-4219-bfcd-ac1b67ca96d5 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/dimensional_db_table_creation.sql
+2024-12-14 22:25:18 - 5372596b-d987-4219-bfcd-ac1b67ca96d5 - INFO - Table 'dim, sor' created successfully.
+2024-12-14 22:25:18 - 5372596b-d987-4219-bfcd-ac1b67ca96d5 - INFO - All dim, sor tables created successfully.
+2024-12-14 22:25:18 - 5372596b-d987-4219-bfcd-ac1b67ca96d5 - INFO - Database connection closed.
+2024-12-14 22:25:18 - 5372596b-d987-4219-bfcd-ac1b67ca96d5 - INFO - Executing Task 3: Create SCD Tables.
+2024-12-14 22:25:18 - 5372596b-d987-4219-bfcd-ac1b67ca96d5 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 22:25:18 - 5372596b-d987-4219-bfcd-ac1b67ca96d5 - INFO - Database connection established for table creation.
+2024-12-14 22:25:18 - 5372596b-d987-4219-bfcd-ac1b67ca96d5 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/scd_creation.sql
+2024-12-14 22:25:18 - 5372596b-d987-4219-bfcd-ac1b67ca96d5 - INFO - Table 'scd' created successfully.
+2024-12-14 22:25:18 - 5372596b-d987-4219-bfcd-ac1b67ca96d5 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/populate_sor.sql
+2024-12-14 22:25:18 - 5372596b-d987-4219-bfcd-ac1b67ca96d5 - INFO - Table 'scd' created successfully.
+2024-12-14 22:25:18 - 5372596b-d987-4219-bfcd-ac1b67ca96d5 - INFO - All SCD tables created successfully.
+2024-12-14 22:25:18 - 5372596b-d987-4219-bfcd-ac1b67ca96d5 - INFO - Database connection closed.
+2024-12-14 22:25:18 - 5372596b-d987-4219-bfcd-ac1b67ca96d5 - INFO - Dimensional Data Flow executed successfully.
+2024-12-14 22:25:18 - 5372596b-d987-4219-bfcd-ac1b67ca96d5 - INFO - Dimensional data pipeline executed successfully.
+2024-12-14 22:25:36 - ceb56a59-f751-486a-be0a-2b8e663029c5 - INFO - Initialized DimensionalDataFlow with Execution ID: ceb56a59-f751-486a-be0a-2b8e663029c5
+2024-12-14 22:25:36 - ceb56a59-f751-486a-be0a-2b8e663029c5 - INFO - Starting Dimensional Data Flow execution.
+2024-12-14 22:25:36 - ceb56a59-f751-486a-be0a-2b8e663029c5 - INFO - Executing Task 1: Create Staging Tables.
+2024-12-14 22:25:36 - ceb56a59-f751-486a-be0a-2b8e663029c5 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 22:25:36 - ceb56a59-f751-486a-be0a-2b8e663029c5 - INFO - Database connection established for table creation.
+2024-12-14 22:25:36 - ceb56a59-f751-486a-be0a-2b8e663029c5 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/staging_raw_table_creation.sql
+2024-12-14 22:25:36 - ceb56a59-f751-486a-be0a-2b8e663029c5 - INFO - Table 'staging' created successfully.
+2024-12-14 22:25:36 - ceb56a59-f751-486a-be0a-2b8e663029c5 - INFO - All tables created successfully.
+2024-12-14 22:25:36 - ceb56a59-f751-486a-be0a-2b8e663029c5 - INFO - Database connection closed.
+2024-12-14 22:25:36 - ceb56a59-f751-486a-be0a-2b8e663029c5 - INFO - Executing Task 2: Create Dim Tables and SORs.
+2024-12-14 22:25:36 - ceb56a59-f751-486a-be0a-2b8e663029c5 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 22:25:36 - ceb56a59-f751-486a-be0a-2b8e663029c5 - INFO - Database connection established for table creation.
+2024-12-14 22:25:36 - ceb56a59-f751-486a-be0a-2b8e663029c5 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/dimensional_db_table_creation.sql
+2024-12-14 22:25:36 - ceb56a59-f751-486a-be0a-2b8e663029c5 - INFO - Table 'dim, sor' created successfully.
+2024-12-14 22:25:36 - ceb56a59-f751-486a-be0a-2b8e663029c5 - INFO - All dim, sor tables created successfully.
+2024-12-14 22:25:36 - ceb56a59-f751-486a-be0a-2b8e663029c5 - INFO - Database connection closed.
+2024-12-14 22:25:36 - ceb56a59-f751-486a-be0a-2b8e663029c5 - INFO - Executing Task 3: Create SCD Tables.
+2024-12-14 22:25:36 - ceb56a59-f751-486a-be0a-2b8e663029c5 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 22:25:36 - ceb56a59-f751-486a-be0a-2b8e663029c5 - INFO - Database connection established for table creation.
+2024-12-14 22:25:36 - ceb56a59-f751-486a-be0a-2b8e663029c5 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/scd_creation.sql
+2024-12-14 22:25:36 - ceb56a59-f751-486a-be0a-2b8e663029c5 - INFO - Table 'scd' created successfully.
+2024-12-14 22:25:36 - ceb56a59-f751-486a-be0a-2b8e663029c5 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/populate_sor.sql
+2024-12-14 22:25:36 - ceb56a59-f751-486a-be0a-2b8e663029c5 - INFO - Table 'scd' created successfully.
+2024-12-14 22:25:36 - ceb56a59-f751-486a-be0a-2b8e663029c5 - INFO - All SCD tables created successfully.
+2024-12-14 22:25:36 - ceb56a59-f751-486a-be0a-2b8e663029c5 - INFO - Database connection closed.
+2024-12-14 22:25:36 - ceb56a59-f751-486a-be0a-2b8e663029c5 - INFO - Dimensional Data Flow executed successfully.
+2024-12-14 22:25:36 - ceb56a59-f751-486a-be0a-2b8e663029c5 - INFO - Dimensional data pipeline executed successfully.
+2024-12-14 22:27:57 - e3bb7714-a666-4314-9273-4f5216146831 - INFO - Initialized DimensionalDataFlow with Execution ID: e3bb7714-a666-4314-9273-4f5216146831
+2024-12-14 22:27:57 - e3bb7714-a666-4314-9273-4f5216146831 - INFO - Starting Dimensional Data Flow execution.
+2024-12-14 22:27:57 - e3bb7714-a666-4314-9273-4f5216146831 - INFO - Executing Task 1: Create Staging Tables.
+2024-12-14 22:27:57 - e3bb7714-a666-4314-9273-4f5216146831 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 22:27:57 - e3bb7714-a666-4314-9273-4f5216146831 - INFO - Database connection established for table creation.
+2024-12-14 22:27:57 - e3bb7714-a666-4314-9273-4f5216146831 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/staging_raw_table_creation.sql
+2024-12-14 22:27:57 - e3bb7714-a666-4314-9273-4f5216146831 - INFO - Table 'staging' created successfully.
+2024-12-14 22:27:57 - e3bb7714-a666-4314-9273-4f5216146831 - INFO - All tables created successfully.
+2024-12-14 22:27:57 - e3bb7714-a666-4314-9273-4f5216146831 - INFO - Database connection closed.
+2024-12-14 22:27:57 - e3bb7714-a666-4314-9273-4f5216146831 - INFO - Executing Task 2: Create Dim Tables and SORs.
+2024-12-14 22:27:57 - e3bb7714-a666-4314-9273-4f5216146831 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 22:27:57 - e3bb7714-a666-4314-9273-4f5216146831 - INFO - Database connection established for table creation.
+2024-12-14 22:27:57 - e3bb7714-a666-4314-9273-4f5216146831 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/dimensional_db_table_creation.sql
+2024-12-14 22:27:57 - e3bb7714-a666-4314-9273-4f5216146831 - INFO - Table 'dim, sor' created successfully.
+2024-12-14 22:27:57 - e3bb7714-a666-4314-9273-4f5216146831 - INFO - All dim, sor tables created successfully.
+2024-12-14 22:27:57 - e3bb7714-a666-4314-9273-4f5216146831 - INFO - Database connection closed.
+2024-12-14 22:27:57 - e3bb7714-a666-4314-9273-4f5216146831 - INFO - Executing Task 3: Create SCD Tables.
+2024-12-14 22:27:57 - e3bb7714-a666-4314-9273-4f5216146831 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 22:27:57 - e3bb7714-a666-4314-9273-4f5216146831 - INFO - Database connection established for table creation.
+2024-12-14 22:27:57 - e3bb7714-a666-4314-9273-4f5216146831 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/scd_creation.sql
+2024-12-14 22:27:57 - e3bb7714-a666-4314-9273-4f5216146831 - INFO - Table 'scd' created successfully.
+2024-12-14 22:27:57 - e3bb7714-a666-4314-9273-4f5216146831 - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/populate_sor.sql
+2024-12-14 22:27:57 - e3bb7714-a666-4314-9273-4f5216146831 - INFO - Table 'scd' created successfully.
+2024-12-14 22:27:57 - e3bb7714-a666-4314-9273-4f5216146831 - INFO - All SCD tables created successfully.
+2024-12-14 22:27:57 - e3bb7714-a666-4314-9273-4f5216146831 - INFO - Database connection closed.
+2024-12-14 22:27:57 - e3bb7714-a666-4314-9273-4f5216146831 - INFO - Dimensional Data Flow executed successfully.
+2024-12-14 22:27:57 - e3bb7714-a666-4314-9273-4f5216146831 - INFO - Dimensional data pipeline executed successfully.
+2024-12-14 22:29:35 - 729402fe-a8fb-462a-aa09-b2d9b17bf173 - INFO - Initialized DimensionalDataFlow with Execution ID: 729402fe-a8fb-462a-aa09-b2d9b17bf173
+2024-12-14 22:29:35 - 729402fe-a8fb-462a-aa09-b2d9b17bf173 - INFO - Starting Dimensional Data Flow execution.
+2024-12-14 22:29:35 - 729402fe-a8fb-462a-aa09-b2d9b17bf173 - INFO - Executing Task 1: Create Staging Tables.
+2024-12-14 22:29:35 - 729402fe-a8fb-462a-aa09-b2d9b17bf173 - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 22:29:35 - 729402fe-a8fb-462a-aa09-b2d9b17bf173 - INFO - Database connection established for table creation.
+2024-12-14 22:29:35 - 729402fe-a8fb-462a-aa09-b2d9b17bf173 - ERROR - Failed to execute SQL script '/Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/staging_raw_table_creation.sql': ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Incorrect syntax near 'GO'. (102) (SQLExecDirectW)")
+2024-12-14 22:29:35 - 729402fe-a8fb-462a-aa09-b2d9b17bf173 - ERROR - Failed to create table 'staging': ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Incorrect syntax near 'GO'. (102) (SQLExecDirectW)")
+2024-12-14 22:29:35 - 729402fe-a8fb-462a-aa09-b2d9b17bf173 - ERROR - Transaction rolled back due to an error in table creation.
+2024-12-14 22:29:35 - 729402fe-a8fb-462a-aa09-b2d9b17bf173 - ERROR - Error in create_staging_tables: ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Incorrect syntax near 'GO'. (102) (SQLExecDirectW)")
+2024-12-14 22:29:35 - 729402fe-a8fb-462a-aa09-b2d9b17bf173 - INFO - Database connection closed.
+2024-12-14 22:29:35 - 729402fe-a8fb-462a-aa09-b2d9b17bf173 - ERROR - Task 1 Failed: ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Incorrect syntax near 'GO'. (102) (SQLExecDirectW)")
+2024-12-14 22:29:35 - 729402fe-a8fb-462a-aa09-b2d9b17bf173 - ERROR - Dimensional data pipeline failed: Task 1 Failed: ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Incorrect syntax near 'GO'. (102) (SQLExecDirectW)")
+2024-12-14 22:29:55 - bba77ba1-46f5-4cd3-ab0d-a2a4142a703c - INFO - Initialized DimensionalDataFlow with Execution ID: bba77ba1-46f5-4cd3-ab0d-a2a4142a703c
+2024-12-14 22:29:55 - bba77ba1-46f5-4cd3-ab0d-a2a4142a703c - INFO - Starting Dimensional Data Flow execution.
+2024-12-14 22:29:55 - bba77ba1-46f5-4cd3-ab0d-a2a4142a703c - INFO - Executing Task 1: Create Staging Tables.
+2024-12-14 22:29:55 - bba77ba1-46f5-4cd3-ab0d-a2a4142a703c - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 22:29:55 - bba77ba1-46f5-4cd3-ab0d-a2a4142a703c - INFO - Database connection established for table creation.
+2024-12-14 22:29:55 - bba77ba1-46f5-4cd3-ab0d-a2a4142a703c - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/staging_raw_table_creation.sql
+2024-12-14 22:29:55 - bba77ba1-46f5-4cd3-ab0d-a2a4142a703c - INFO - Table 'staging' created successfully.
+2024-12-14 22:29:55 - bba77ba1-46f5-4cd3-ab0d-a2a4142a703c - INFO - All tables created successfully.
+2024-12-14 22:29:55 - bba77ba1-46f5-4cd3-ab0d-a2a4142a703c - INFO - Database connection closed.
+2024-12-14 22:29:55 - bba77ba1-46f5-4cd3-ab0d-a2a4142a703c - INFO - Executing Task 2: Create Dim Tables and SORs.
+2024-12-14 22:29:55 - bba77ba1-46f5-4cd3-ab0d-a2a4142a703c - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 22:29:55 - bba77ba1-46f5-4cd3-ab0d-a2a4142a703c - INFO - Database connection established for table creation.
+2024-12-14 22:29:55 - bba77ba1-46f5-4cd3-ab0d-a2a4142a703c - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/dimensional_db_table_creation.sql
+2024-12-14 22:29:55 - bba77ba1-46f5-4cd3-ab0d-a2a4142a703c - INFO - Table 'dim, sor' created successfully.
+2024-12-14 22:29:55 - bba77ba1-46f5-4cd3-ab0d-a2a4142a703c - INFO - All dim, sor tables created successfully.
+2024-12-14 22:29:55 - bba77ba1-46f5-4cd3-ab0d-a2a4142a703c - INFO - Database connection closed.
+2024-12-14 22:29:55 - bba77ba1-46f5-4cd3-ab0d-a2a4142a703c - INFO - Executing Task 3: Create SCD Tables.
+2024-12-14 22:29:55 - bba77ba1-46f5-4cd3-ab0d-a2a4142a703c - INFO - Successfully connected to the database: ORDER_DDS
+2024-12-14 22:29:55 - bba77ba1-46f5-4cd3-ab0d-a2a4142a703c - INFO - Database connection established for table creation.
+2024-12-14 22:29:55 - bba77ba1-46f5-4cd3-ab0d-a2a4142a703c - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/scd_creation.sql
+2024-12-14 22:29:55 - bba77ba1-46f5-4cd3-ab0d-a2a4142a703c - INFO - Table 'scd' created successfully.
+2024-12-14 22:29:55 - bba77ba1-46f5-4cd3-ab0d-a2a4142a703c - INFO - Successfully executed SQL script: /Users/armenmkrtumyan/Desktop/Group1_DS206_GroupProject2/infrastructure_initiation/populate_sor.sql
+2024-12-14 22:29:55 - bba77ba1-46f5-4cd3-ab0d-a2a4142a703c - INFO - Table 'scd' created successfully.
+2024-12-14 22:29:55 - bba77ba1-46f5-4cd3-ab0d-a2a4142a703c - INFO - All SCD tables created successfully.
+2024-12-14 22:29:55 - bba77ba1-46f5-4cd3-ab0d-a2a4142a703c - INFO - Database connection closed.
+2024-12-14 22:29:55 - bba77ba1-46f5-4cd3-ab0d-a2a4142a703c - INFO - Dimensional Data Flow executed successfully.
+2024-12-14 22:29:55 - bba77ba1-46f5-4cd3-ab0d-a2a4142a703c - INFO - Dimensional data pipeline executed successfully.
